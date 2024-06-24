@@ -60,7 +60,7 @@ public class Login extends JFrame {
                     SessionManager.loginUser(loginId);
                     JOptionPane.showMessageDialog(null, "로그인 성공!");
                     dispose();
-
+                    mainPage.afterLogin();
                 } else {
                     SessionManager.loginUser(null);
                     JOptionPane.showMessageDialog(null,"로그인 실패!");
