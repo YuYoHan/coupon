@@ -115,6 +115,60 @@ public class UserInfo extends JFrame {
             }
         });
 
+        // 회원탈퇴
+        btnRemove.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String userId = userLoginId.getText();
+                System.out.println("유저 아이디 : " + userId);
+
+                // 사용자가 삭제를 확인하기 위한 Dialog 창을 생성합니다.
+                int option = JOptionPane.showConfirmDialog(
+                        null,
+                        "정말로 삭제하시겠습니까?",
+                        "사용자 삭제",
+                        JOptionPane.YES_NO_OPTION);
+
+                // 사용자가 예(YES_OPTION)를 선택했을 때만 삭제 작업을 진행합니다.
+                if (option == JOptionPane.YES_OPTION) {
+                    // 비밀번호 입력을 다시 받기 위해서 Dialog 창을 생성
+                    JPasswordField passwordField = new JPasswordField();
+                    Object[] message = {"비밀번호를 다시 입력하세요:", passwordField};
+                    int passwordOption = JOptionPane.showConfirmDialog(
+                            null,
+                            message,
+                            "비밀번호 확인",
+                            JOptionPane.OK_CANCEL_OPTION,
+                            JOptionPane.PLAIN_MESSAGE);
+
+                    // 사용자가 확인을 눌렀고 비밀번호가 일치하면 삭제 작업을 진행합니다.
+                    if (passwordOption == JOptionPane.OK_OPTION) {
+                        String password = new String(passwordField.getPassword());
+                        System.out.println("비밀번호 체크 : " + password);
+                        String encodePw = PasswordEncode.encode(password);
+
+                        UserDTO select = UserDAO.select(userId);
+                        // 저장된 비밀번호와 사용자가 입력한 비밀번호를 비교합니다.
+                        if (encodePw.equals(select.getUserPw())) {
+                            int delete = UserDAO.delete(select.getUserId());
+                            if (delete > 0) {
+                                System.out.println("삭제 성공");
+                                JOptionPane.showMessageDialog(null, "삭제 성공했습니다.");
+                                dispose();
+                                mainPage.setVisible(true);
+                            }
+                        } else {
+                            // 비밀번호가 일치하지 않을 경우 메시지를 출력합니다.
+                            JOptionPane.showMessageDialog(
+                                    null,
+                                    "비밀번호가 일치하지 않습니다.",
+                                    "비밀번호 오류",
+                                    JOptionPane.ERROR_MESSAGE);
+                        }
+                    }
+                }
+            }
+        });
 
 
         btnCancel.addActionListener(new ActionListener() {

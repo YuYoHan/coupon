@@ -85,6 +85,12 @@ public class UserDAO {
         return connectDB(sql, user, userId);
     }
 
+    // 유저 삭제
+    public static int delete(int userId) {
+        String sql = "DELETE FROM users WHERE user_id = ?";
+        return connectDB(sql, userId);
+    }
+
     // DB에 등록, 수정, 삭제하는 메서드
     private static int connectDB(String sql, Object... params) {
         try {
