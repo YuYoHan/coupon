@@ -1,0 +1,32 @@
+
+™
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(ıØÕá8¶˜Å„2J$e5c728d5-83e9-4b2d-b648-ea7e6ceebfc8
+ 
+java:S1104"]Make preparedStatement a static final constant or non-public and provide accessors if needed.(…¬Ş8¶˜Å„2J$7dbe2e6e-5aa2-4ead-8dda-c8a8cd9c8822
+–
+java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(†‡Û ıÿÿÿÿ8¶˜Å„2J$75723e16-4872-44e6-b803-939ffa31d24b
+s
+java:S1444"0Make this "public static connection" field final(ıØÕá8·˜Å„2J$f9aa122b-bbcf-4370-979d-87d45c18b81c
+z
+java:S1444"7Make this "public static preparedStatement" field final(…¬Ş8·˜Å„2J$bd74336c-6b52-4cba-9263-26fed4218c2c
+p
+java:S1444"(Make this "public static rs" field final(†‡Û ıÿÿÿÿ8·˜Å„2J$f76ce269-08d1-41b7-9305-6ce86928a643
+	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ²’Å„2J$ca8856de-fa80-458e-ba8b-1a2f14ade7be
+”
+java:S1192""QDefine a constant instead of duplicating this literal "ì—ëŸ¬ ë°œìƒ : " 5 times.(›Çéà8Æ’•Å„2J$c566ae73-fd6d-42f1-b6b7-d15ca006ac0e
+}
+java:S1118
+":Add a private constructor to hide the implicit public one.(ÁÇæÅ8¹˜Å„2J$08b3d87f-f6fc-4cf1-ab38-29926f421681
+g
+java:S6905"Don't use the query "SELECT *".(¥¤€şüÿÿÿÿ8Ë’•Å„2J$a5d56869-7ba4-4301-b2f0-003a13bdda88
+m	java:S106"+Replace this use of System.out by a logger.(û¸–Ü8¾²’Å„2J$1999055a-5584-4674-a9db-ce70f1e50ca8
+m	java:S106""+Replace this use of System.out by a logger.(›Çéà8¾²’Å„2J$fe05c16e-2269-4773-8239-1bd4190d383e
+m	java:S106'"+Replace this use of System.out by a logger.(›Çéà8À²’Å„2J$9c09b760-bf79-421f-a15f-f60c0f66f553
+<
+java:S6905/"Don't use the query "SELECT *".(¥çÆ8ªÈÅ„2
+m	java:S106="+Replace this use of System.out by a logger.(û¸–Ü8Ñ’•Å„2J$c775fb24-0baa-4d35-a8d0-ed31050337cc
+m	java:S106@"+Replace this use of System.out by a logger.(›Çéà8Ñ’•Å„2J$25320139-b00c-4d2e-b9ee-00f929efbc6a
+m	java:S106E"+Replace this use of System.out by a logger.(›Çéà8Ó’•Å„2J$fa866c16-fcb3-4cb5-9ba3-0e148b574147
+L	java:S106]"+Replace this use of System.out by a logger.(è¯¥ˆùÿÿÿÿ8ªÈÅ„2
+G	java:S106`"+Replace this use of System.out by a logger.(¬Ûš8ªÈÅ„2
+G	java:S106i"+Replace this use of System.out by a logger.(›Çéà8ªÈÅ„2
