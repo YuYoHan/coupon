@@ -1,32 +1,0 @@
-
-™
-java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(ıØÕá8¶˜Å„2J$a3922e5d-aeb2-44b3-a467-14282044e2fa
- 
-java:S1104"]Make preparedStatement a static final constant or non-public and provide accessors if needed.(…¬Ş8¶˜Å„2J$ec7f29f2-faba-4472-8e1b-c9c877edb030
-–
-java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(†‡Û ıÿÿÿÿ8¶˜Å„2J$172ef986-f240-49b6-a663-4f291a131b85
-s
-java:S1444"0Make this "public static connection" field final(ıØÕá8·˜Å„2J$3bbc64d4-48c3-4d2a-a410-83463261ec86
-z
-java:S1444"7Make this "public static preparedStatement" field final(…¬Ş8·˜Å„2J$a0499cf8-d56f-43d1-99c1-cd68c30df7c1
-p
-java:S1444"(Make this "public static rs" field final(†‡Û ıÿÿÿÿ8·˜Å„2J$86907038-8f8c-4b2b-a4b8-1cbd57a157e0
-	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ²’Å„2J$2300fed9-0e4b-4a44-8e7e-4c7629b38c14
-”
-java:S1192""QDefine a constant instead of duplicating this literal "ì—ëŸ¬ ë°œìƒ : " 5 times.(›Çéà8Æ’•Å„2J$e93774a9-f51f-4bd1-9365-224b85fff66e
-}
-java:S1118
-":Add a private constructor to hide the implicit public one.(ÁÇæÅ8¹˜Å„2J$25356059-073f-4af7-b9c0-0a5fcdc9fb7e
-g
-java:S6905"Don't use the query "SELECT *".(¥¤€şüÿÿÿÿ8Ë’•Å„2J$37cd7d5f-550a-49d5-ab21-73e235575b45
-m	java:S106"+Replace this use of System.out by a logger.(û¸–Ü8¾²’Å„2J$cee77171-287b-4c62-a3bc-cbbfe07a822c
-m	java:S106""+Replace this use of System.out by a logger.(›Çéà8¾²’Å„2J$95d125c3-d0fd-4eda-8fcd-1d051c792492
-m	java:S106'"+Replace this use of System.out by a logger.(›Çéà8À²’Å„2J$2ac00758-eb51-4d31-b2b3-eeef5587ceb5
-b
-java:S6905/"Don't use the query "SELECT *".(¥çÆ8ªÈÅ„2J$b0c961ca-42e1-4e99-bf00-9782898f7b78
-m	java:S106="+Replace this use of System.out by a logger.(û¸–Ü8Ñ’•Å„2J$ac4021be-73dd-4935-a76f-76330eef98d7
-m	java:S106@"+Replace this use of System.out by a logger.(›Çéà8Ñ’•Å„2J$6d364b59-32e9-48c5-879a-c76e5f367bce
-m	java:S106E"+Replace this use of System.out by a logger.(›Çéà8Ó’•Å„2J$65e2576e-6616-4045-b0d2-5298794ccb7d
-r	java:S106]"+Replace this use of System.out by a logger.(è¯¥ˆùÿÿÿÿ8ªÈÅ„2J$d827f898-2afa-433f-8939-926afc2bc820
-m	java:S106`"+Replace this use of System.out by a logger.(¬Ûš8ªÈÅ„2J$38bf5739-a496-4081-9715-d96f6b11cc1a
-m	java:S106i"+Replace this use of System.out by a logger.(›Çéà8ªÈÅ„2J$d297c40b-9050-44b7-9f64-b34f79927e9d
