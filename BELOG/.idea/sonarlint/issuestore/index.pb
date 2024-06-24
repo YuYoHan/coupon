@@ -11,3 +11,5 @@ J
 src/config/JDBCConfig.java,4\d\4d14efa220666e8b3ba6d5ad906a12d22bba5cc7
 D
 src/dao/UserDAO.java,f\f\ff7c8130bd54405ec8dc06730a844e82699c6358
+@
+src/db/BELOG.sql,1\4\1439423e784c5d70d8f4f96fe698dba01a8e7b26
