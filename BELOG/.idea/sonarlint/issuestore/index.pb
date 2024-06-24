@@ -17,3 +17,5 @@ N
 src/config/SessionManager.java,f\d\fd176b7d701c3f9ead74993ba6ebfab82084cc3e
 B
 src/gui/Login.java,c\1\c18dbe78069fd12f39001ac17b813e756476f44d
+E
+src/gui/UserInfo.java,6\5\65a7f28c1c31eeb4fd9dc536f747905614954b2d

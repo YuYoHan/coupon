@@ -1,0 +1,33 @@
+
+k
+java:S1604E"(Make this anonymous inner class a lambda(õé—8İ½ÆÇ„2J$ae86345f-0532-4e0c-8d1d-48c9a358523e
+k
+java:S1604x"(Make this anonymous inner class a lambda(ê•úÄ8İ½ÆÇ„2J$619b9ff8-8528-4627-a1a1-c2d0bf6df4a4
+”	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕ8Ş½ÆÇ„2J$b4d04957-9057-4aaa-8a4a-0c651b9f20ad
+”	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…é8Ş½ÆÇ„2J$364dd807-5ce9-41d2-a195-bd71b53b32b6
+­
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(÷£ü£ûÿÿÿÿ8è½ÆÇ„2J$aa50932f-784b-4929-9d2e-df4c56351679
+­
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ŞÊ£¨øÿÿÿÿ8è½ÆÇ„2J$93f39748-5507-4c98-9b01-468edfa8f788
+¨
+java:S1149h"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ØŒ·É8è½ÆÇ„2J$d044cf69-8865-4661-b0e6-569fcd33d4e0
+®
+java:S1149†"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ä”¨Áûÿÿÿÿ8é½ÆÇ„2J$f9ca5d38-7874-492d-9361-87a3c8a75238
+‘
+java:S3252A"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ô½ÆÇ„2J$691d21bc-a785-447e-9d68-35e103108ecb
+m	java:S106K"+Replace this use of System.out by a logger.(âùé¹8÷½ÆÇ„2J$812bdeab-e63c-4cc7-88af-83c03887a998
+k	java:S106O"+Replace this use of System.out by a logger.(Éƒı½øÿÿÿÿJ$0e094882-fd1d-47f8-b6f6-2e71d530f252
+m	java:S106W"+Replace this use of System.out by a logger.(­—Éâ8ø½ÆÇ„2J$b18b00ee-4ea1-4d4e-a5b5-b8429a2d492b
+m	java:S106f"+Replace this use of System.out by a logger.(Ø¼¢ƒ8ú½ÆÇ„2J$1ee6a8df-e5bc-40ad-9b08-6848ecc72a7f
+†
+java:S1117i">Rename "selectedId" which hides the field declared at line 24.(ß—Ëøÿÿÿÿ8ú½ÆÇ„2J$a4ef8c33-711d-41d4-baeb-c633bdb4b435
+s
+java:S5869“"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8†¾ÆÇ„2J$a212dd31-dc74-4139-b0ff-7945ada86d3f
+s
+java:S5869“"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8†¾ÆÇ„2J$4e3e1375-c40e-4b45-82c1-4bac62bc2fc8
+…
+java:S6353“"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8†¾ÆÇ„2J$330eb4e4-c8c8-4273-85de-ce317738e890
+…
+java:S6353“"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8‡¾ÆÇ„2J$160572bf-b6bb-46d7-9d7d-02aa5df029c6
+Š
+java:S1126¢"AReplace this if-then-else statement by a single return statement.(™Êƒùÿÿÿÿ8Š¾ÆÇ„2J$3a0cc644-895b-4e64-965e-709c3bfed4f3
