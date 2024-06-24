@@ -13,3 +13,7 @@ D
 src/dao/UserDAO.java,f\f\ff7c8130bd54405ec8dc06730a844e82699c6358
 @
 src/db/BELOG.sql,1\4\1439423e784c5d70d8f4f96fe698dba01a8e7b26
+N
+src/config/SessionManager.java,f\d\fd176b7d701c3f9ead74993ba6ebfab82084cc3e
+B
+src/gui/Login.java,c\1\c18dbe78069fd12f39001ac17b813e756476f44d
