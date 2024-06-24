@@ -1,0 +1,40 @@
+
+d
+java:S1604E"(Make this anonymous inner class a lambda(õé—J$29757c99-7648-4e8d-ae87-26e52d4392db
+i
+java:S1604w"(Make this anonymous inner class a lambda(¹Ó™ÂûÿÿÿÿJ$64cf436a-4c69-457c-ab27-7c5e2b68f3f0
+l
+java:S1604®"(Make this anonymous inner class a lambda(ê•úÄ8É§È„2J$1913de85-290b-4ab1-bf25-d298898bd0a1
+	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕJ$0450b4da-c213-45a6-8028-0af25ceff124
+	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…éJ$1b3d4c95-40cd-40b3-bdc4-dfc44136b298
+¦
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(÷£ü£ûÿÿÿÿJ$4e3bb1fd-79de-4c8f-89ca-beb649f57271
+¦
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ŞÊ£¨øÿÿÿÿJ$f2028580-4279-4d8e-8b0d-c71ad4ebaf3c
+¡
+java:S1149h"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ØŒ·ÉJ$0198f2bb-f631-403d-946f-b9983e942ef0
+§
+java:S1149¼"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ä”¨ÁûÿÿÿÿJ$fdaf5cf0-a5d3-46d5-aa40-c1206265095f
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(†´åƒşÿÿÿÿ8Ó§È„2J$6b8e5b02-7f00-4e2d-b8a3-4a7fc16366ae
+Š
+java:S3252A"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿJ$a5e5076c-c22b-43c7-b0e6-32b41103a9f8
+f	java:S106K"+Replace this use of System.out by a logger.(âùé¹J$0a6ca6fb-d502-40ca-b1a5-53ba54af78d5
+k	java:S106O"+Replace this use of System.out by a logger.(Éƒı½øÿÿÿÿJ$05524570-1253-4f36-82a6-bce47aa9f84d
+f	java:S106W"+Replace this use of System.out by a logger.(­—ÉâJ$cbd2b3ff-6895-4aa7-8b03-832886e56f6a
+f	java:S106f"+Replace this use of System.out by a logger.(Ø¼¢ƒJ$8da51f36-26fc-4720-816c-92c00e834dd4
+
+java:S1117i">Rename "selectedId" which hides the field declared at line 24.(ß—ËøÿÿÿÿJ$aa8f84cb-b46f-4e51-b687-585575b3b1b8
+m	java:S106{"+Replace this use of System.out by a logger.(âùé¹8ã§È„2J$8df8e678-7ef8-47f1-86c6-9975f803e6a3
+s	java:S106“"+Replace this use of System.out by a logger.(öï±Íûÿÿÿÿ8ç§È„2J$8f01f1de-b6e9-45db-9f78-6c01207761f2
+s	java:S106›"+Replace this use of System.out by a logger.(Ó¶…ˆüÿÿÿÿ8ç§È„2J$5f0509b2-42a8-4342-82d5-e70a42ad3d88
+l
+java:S5869É"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿJ$4c489e8f-f05d-4c26-a8b9-c914549422cf
+l
+java:S5869É"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿJ$6f5d6d73-dc64-47b8-9286-c1dfcc681b6b
+~
+java:S6353É"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿJ$ec6f8ea4-667f-4b3c-9578-7eb86a97df78
+~
+java:S6353É"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿJ$b924074b-4053-440b-8475-793162dfb983
+ƒ
+java:S1126Ø"AReplace this if-then-else statement by a single return statement.(™ÊƒùÿÿÿÿJ$d475a767-fee9-4f7d-81b4-5ccb392e8161

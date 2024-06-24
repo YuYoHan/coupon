@@ -1,0 +1,32 @@
+
+™
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(ıØÕá8¶˜Å„2J$87086e42-c459-4d78-9634-cb6c9ef436b4
+ 
+java:S1104"]Make preparedStatement a static final constant or non-public and provide accessors if needed.(…¬Ş8¶˜Å„2J$77ec3619-8577-418a-af79-c003429fc8b5
+–
+java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(†‡Û ıÿÿÿÿ8¶˜Å„2J$f426bdce-e0fb-4ffb-a97d-6c4c2696fe6a
+s
+java:S1444"0Make this "public static connection" field final(ıØÕá8·˜Å„2J$1cd85d47-c3e2-4df1-9f92-ff603eb62752
+z
+java:S1444"7Make this "public static preparedStatement" field final(…¬Ş8·˜Å„2J$62f111a7-abdf-4f93-86f8-2d88c8518225
+p
+java:S1444"(Make this "public static rs" field final(†‡Û ıÿÿÿÿ8·˜Å„2J$6624fd3d-7919-4651-a28a-763468e9fd9a
+	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ²’Å„2J$ff7b3c56-8a4b-4601-b2e3-ed9920212a0a
+”
+java:S1192""QDefine a constant instead of duplicating this literal "ì—ëŸ¬ ë°œìƒ : " 5 times.(›Çéà8Æ’•Å„2J$d0d5b1e9-0f91-48dd-bc73-2d747ff5c188
+}
+java:S1118
+":Add a private constructor to hide the implicit public one.(ÁÇæÅ8¹˜Å„2J$5d1f4bbc-4cda-4732-9c95-0d54e3a2d3a3
+g
+java:S6905"Don't use the query "SELECT *".(¥¤€şüÿÿÿÿ8Ë’•Å„2J$03054996-8f4c-42dc-a9f5-cf98f32b8704
+m	java:S106"+Replace this use of System.out by a logger.(û¸–Ü8¾²’Å„2J$e319e7c2-1ecd-4ea7-8b89-32d3d64f41a6
+m	java:S106""+Replace this use of System.out by a logger.(›Çéà8¾²’Å„2J$c6adab5d-2513-428b-bd21-a6a398a5afc2
+m	java:S106'"+Replace this use of System.out by a logger.(›Çéà8À²’Å„2J$3be908ae-3615-4271-ab0f-c15ac67e3ac5
+b
+java:S6905/"Don't use the query "SELECT *".(¥çÆ8ªÈÅ„2J$12c1d9cd-9a97-4f30-9e58-3f466392b41f
+m	java:S106="+Replace this use of System.out by a logger.(û¸–Ü8Ñ’•Å„2J$1180765b-de83-4157-a09f-04f25d396922
+m	java:S106@"+Replace this use of System.out by a logger.(›Çéà8Ñ’•Å„2J$d3adf573-e060-4826-b5a2-ded60804b63e
+m	java:S106E"+Replace this use of System.out by a logger.(›Çéà8Ó’•Å„2J$f391e26c-803a-45a0-b6de-f26ce6fd37b3
+r	java:S106i"+Replace this use of System.out by a logger.(è¯¥ˆùÿÿÿÿ8ªÈÅ„2J$eee50185-b526-42a7-bbd8-b9dee8d930c2
+m	java:S106l"+Replace this use of System.out by a logger.(¬Ûš8ªÈÅ„2J$019a67e7-b8e3-40e1-bce5-3b7dbf48a01d
+m	java:S106u"+Replace this use of System.out by a logger.(›Çéà8ªÈÅ„2J$2451ddf3-6976-4014-84ee-e64de118abcd
