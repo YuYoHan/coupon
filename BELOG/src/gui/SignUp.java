@@ -1,5 +1,7 @@
 package gui;
 
+import config.PasswordEncode;
+import dao.UserDAO;
 import dto.UserDTO;
 
 import javax.swing.*;
@@ -209,7 +211,7 @@ public class SignUp extends JFrame {
         return matcher_pwd.matches();
     }
 
-
+    // 닉네임 검사
     private static boolean checkNickName(String nickName) {
         String regex = "^[ㄱ-ㅎ가-힣]*$";
         Pattern compile = Pattern.compile(regex);
@@ -220,6 +222,7 @@ public class SignUp extends JFrame {
         return false;
     }
 
+    // 아이디 검사
     private static boolean checkId(String id) {
         String regex = "\t^[a-zA-Z0-9]*$";
         Pattern compile = Pattern.compile(regex);
