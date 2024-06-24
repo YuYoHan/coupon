@@ -79,6 +79,12 @@ public class UserDAO {
         return connectDB(sql, user);
     }
 
+    // 유저 수정
+    public static int update(UserDTO user, int userId) {
+        String sql = "UPDATE users SET user_pw = ?, user_email = ?, nickname = ? WHERE user_id = ?";
+        return connectDB(sql, user, userId);
+    }
+
     // DB에 등록, 수정, 삭제하는 메서드
     private static int connectDB(String sql, Object... params) {
         try {
