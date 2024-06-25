@@ -41,7 +41,7 @@ public class CustomStyle{
 		return fontStyle;
 	}
 	
-	//Color
+	//Color.
 	public static Color white = new Color(255,255,255);
 	public static Color black = new Color(0,0,0);
 	public static Color black50= new Color(0,0,0, 125);
