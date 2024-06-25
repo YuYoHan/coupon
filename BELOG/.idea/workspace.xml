@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b70195e-7311-45ff-ad0a-7953ca20956b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/.gitingnore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/component/buttons/RoundButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/component/input/RoundInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/component/input/RoundTextArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "dev 병합 중",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/study/Java/KOSTA_Board/BELOG/src/gui",
     "node.js.detected.package.eslint": "true",
@@ -83,7 +79,7 @@
       <updated>1719205310542</updated>
       <workItem from="1719205311552" duration="8965000" />
       <workItem from="1719273098352" duration="11256000" />
-      <workItem from="1719300841331" duration="2387000" />
+      <workItem from="1719300841331" duration="2849000" />
     </task>
     <servers />
   </component>
