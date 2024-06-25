@@ -27,6 +27,7 @@ public class SignUp extends JFrame {
     private boolean emailAvailable = false;
 
     public SignUp(Index mainPage) {
+
         // 회원가입 구현할 패널 생성
         JPanel mainPanel = new JPanel();
         // 세로로 쌓이도록 설정
@@ -37,7 +38,7 @@ public class SignUp extends JFrame {
         JPanel topPanel = new JPanel();
         topPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
         topPanel.setBackground(Color.WHITE);
-        JLabel loginLabel = new JLabel("<HTML><U>로그인 화면으로</U></HTML>");
+        JLabel loginLabel = new JLabel("<HTML><U>로그인 화면</U></HTML>");
         loginLabel.setForeground(Color.BLUE);
         loginLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         topPanel.add(loginLabel);
@@ -54,7 +55,7 @@ public class SignUp extends JFrame {
         titlePanel.setLayout(new FlowLayout(FlowLayout.CENTER));
         titlePanel.setBackground(Color.WHITE);
         // 제목 추가
-        JLabel titleLabel = new JLabel("Sign Up");
+        JLabel titleLabel = new JLabel("BELOG");
         titleLabel.setFont(new Font("Spoqa Sans", Font.BOLD, 24));
         // 가운데 정렬
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -86,8 +87,11 @@ public class SignUp extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String id = userLoginId.getText();
                 if (check(id)) {
-                    JOptionPane.showMessageDialog(null, "사용 가능한 아이디입니다.");
+                    JOptionPane.showMessageDialog(null, "사용가능한 아이디입니다.");
                     idAvailable = true;
+                } else if (id == null || id.isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "아이디를 입력하세요");
+                    idAvailable = false;
                 } else {
                     JOptionPane.showMessageDialog(null, "이미 존재하는 아이디입니다.");
                     idAvailable = false;
@@ -127,8 +131,12 @@ public class SignUp extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String email = userEmail.getText();
                 if (checkEmail(email)) {
-                    JOptionPane.showMessageDialog(null, "사용 가능한 이메일입니다.");
+                    JOptionPane.showMessageDialog(null, "사용가능한 이메일입니다.");
                     emailAvailable = true;
+                } else if (email == null || email.isEmpty()) {
+                    System.out.println(email);
+                    JOptionPane.showMessageDialog(null, "이메일을 입력하세요");
+                    emailAvailable = false;
                 } else {
                     JOptionPane.showMessageDialog(null, "이미 존재하는 이메일입니다.");
                     emailAvailable = false;
@@ -184,19 +192,19 @@ public class SignUp extends JFrame {
 
 
                     if (!checkNickName(id)) {
-                        JOptionPane.showMessageDialog(null, "한글 로 5~30글자 이내로 해주세요");
+                        JOptionPane.showMessageDialog(null, "한글로 5~30글자 이내로 해주세요");
                         return;
                     }
 
                     // 아이디 중복 체크
                     if (!idAvailable) {
-                        JOptionPane.showMessageDialog(null, "아이디 중복을 확인해주세요.");
+                        JOptionPane.showMessageDialog(null, "아이디를 확인해주세요.");
                         return; // 중복되는 아이디일 경우 회원가입 중지
                     }
 
                     // 이메일 중복 체크
-                    if (!emailAvailable) {
-                        JOptionPane.showMessageDialog(null, "이메일 중복을 확인해주세요.");
+                    if (!emailAvailable || email == null) {
+                        JOptionPane.showMessageDialog(null, "이메일를 확인해주세요.");
                         return; // 중복되는 이메일일 경우 회원가입 중지
                     }
 
@@ -212,6 +220,13 @@ public class SignUp extends JFrame {
                         return; // 비밀번호 불일치 시 메서드 종료
                     }
 
+                    // 닉네임 체크
+                    if (!checkNickName(nickName)) {
+                        JOptionPane.showMessageDialog(null, "닉네임을 확인하세요");
+                        return;
+                    }
+
+
                     // 외부 클래스에 인코드 작업해서 암호화
                     String hashPassword = PasswordEncode.encode(password);
                     System.out.println("암호화 비밀번호 : " + hashPassword);
@@ -226,6 +241,7 @@ public class SignUp extends JFrame {
                     user.setNickName(nickName);
                     System.out.println(user);
 
+                    // DB에 insert문
                     int insert = UserDAO.insert(user);
 
                     if (insert > 0) {
@@ -243,6 +259,7 @@ public class SignUp extends JFrame {
         });
 
     }
+
 
     // 해당 아이디가 있는지 그리고 조건에 맞는지 체크
     private static boolean check(String id) {
