@@ -1,0 +1,61 @@
+
+u
+java:S1104"ZMake DISPLAY_MARGIN a static final constant or non-public and provide accessors if needed.(ÅæÝ²ýÿÿÿÿ
+l
+java:S1104-"QMake white a static final constant or non-public and provide accessors if needed.(ÅÈ•ƒÿÿÿÿÿ
+g
+java:S1104."QMake black a static final constant or non-public and provide accessors if needed.(Ž°î§
+n
+java:S1104/"SMake black50 a static final constant or non-public and provide accessors if needed.(õÂÿðøÿÿÿÿ
+p
+java:S11040"UMake mainColor a static final constant or non-public and provide accessors if needed.(…ƒðØùÿÿÿÿ
+l
+java:S11041"VMake hoverColor a static final constant or non-public and provide accessors if needed.(Þ§è¤
+s
+java:S11042"]Make primaryhoverColor a static final constant or non-public and provide accessors if needed.(îË„‘
+t
+java:S11043"^Make primaryactiveColor a static final constant or non-public and provide accessors if needed.(¨ù½“
+m
+java:S11044"WMake activeColor a static final constant or non-public and provide accessors if needed.(É“ý’
+s
+java:S11045"XMake transparency a static final constant or non-public and provide accessors if needed.(Ðþë²ÿÿÿÿÿ
+x
+java:S11046"]Make buttonBorderColor a static final constant or non-public and provide accessors if needed.(“üÈ»ùÿÿÿÿ
+m
+java:S11047"WMake borderColor a static final constant or non-public and provide accessors if needed.(óèÒÉ
+O
+java:S1444"4Make this "public static DISPLAY_MARGIN" field final(ÅæÝ²ýÿÿÿÿ
+F
+java:S1444-"+Make this "public static white" field final(ÅÈ•ƒÿÿÿÿÿ
+A
+java:S1444."+Make this "public static black" field final(Ž°î§
+H
+java:S1444/"-Make this "public static black50" field final(õÂÿðøÿÿÿÿ
+J
+java:S14440"/Make this "public static mainColor" field final(…ƒðØùÿÿÿÿ
+F
+java:S14441"0Make this "public static hoverColor" field final(Þ§è¤
+M
+java:S14442"7Make this "public static primaryhoverColor" field final(îË„‘
+N
+java:S14443"8Make this "public static primaryactiveColor" field final(¨ù½“
+G
+java:S14444"1Make this "public static activeColor" field final(É“ý’
+M
+java:S14445"2Make this "public static transparency" field final(Ðþë²ÿÿÿÿÿ
+R
+java:S14446"7Make this "public static buttonBorderColor" field final(“üÈ»ùÿÿÿÿ
+G
+java:S14447"1Make this "public static borderColor" field final(óèÒÉ
+t
+java:S3008"YRename this field "DISPLAY_MARGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅæÝ²ýÿÿÿÿ
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(èª›Øøÿÿÿÿ
+<	java:S131""Add a default case to this switch.(èª›Øøÿÿÿÿ
+@	java:S106&"+Replace this use of System.err by a logger.(Úÿ»…
+g
+java:S1172H"QRemove these unused method parameters "radius1", "radius2", "radius3", "radius4".(ÀÔÍÜ
+N
+java:S1135…"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+N
+java:S1135‹"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ

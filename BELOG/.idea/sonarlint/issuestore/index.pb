@@ -1,6 +1,4 @@
 
-?
-src/.gitingnore,d\3\d317c6829c7c722aa0f2fd2477269291625a9bc8
 E
 src/gui/UserInfo.java,6\5\65a7f28c1c31eeb4fd9dc536f747905614954b2d
 D
@@ -21,3 +19,10 @@ B
 src/gui/Login.java,c\1\c18dbe78069fd12f39001ac17b813e756476f44d
 J
 src/gui/HintTextField.java,e\a\ea8f0590c6244338e22a612b57b684daf8c457a1
+>
+src/.gitignore,9\3\93cbdd0973c9a7b59e5cef90a94300ab95fd66e5
+H
+src/gui/CustomStyle.java,5\b\5bd63daa2f5abf29c3ae12c6392d96ccf339efb1
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

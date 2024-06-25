@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b70195e-7311-45ff-ad0a-7953ca20956b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4290ef9c77a65cd2d9ce3b643c98490e04fa1544" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4290ef9c77a65cd2d9ce3b643c98490e04fa1544" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d317c6829c7c722aa0f2fd2477269291625a9bc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d317c6829c7c722aa0f2fd2477269291625a9bc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitingnore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="없음" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,20 +37,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/study/Java/KOSTA_Board/BELOG/src/gui",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.SignUp.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/Java/KOSTA_Board/BELOG/src/gui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.SignUp.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\Java\KOSTA_Board\BELOG\src\gui" />
@@ -82,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719205310542</updated>
       <workItem from="1719205311552" duration="8965000" />
-      <workItem from="1719273098352" duration="9418000" />
+      <workItem from="1719273098352" duration="11256000" />
+      <workItem from="1719300841331" duration="670000" />
     </task>
     <servers />
   </component>
