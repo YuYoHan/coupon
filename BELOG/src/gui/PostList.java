@@ -107,6 +107,7 @@ public class PostList extends JFrame{
 		JPanel buttonsWrap = new JPanel();
 		buttonsWrap.setLayout(new FlowLayout());
 		tableNavArea.add(buttonsWrap, BorderLayout.EAST);
+		buttonsWrap.setBackground(CustomStyle.white);
 		DefaultButton ButtonWrite = new DefaultButton("글쓰기");
 		buttonsWrap.add(ButtonWrite);
 		
