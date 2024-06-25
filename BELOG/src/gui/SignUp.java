@@ -165,10 +165,16 @@ public class SignUp extends JFrame {
         signUpButton.setForeground(Color.WHITE);
         signUpButton.setFocusPainted(false);
         signUpButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-        mainPanel.add(signUpButton, gbc);
+        mainPanel.add(signUpButton);
+
+        JLabel label = new JLabel();
+        JPanel footerPanel = new JPanel();
+        footerPanel.setBackground(Color.WHITE);
+        footerPanel.add(label);
 
         // 패널을 프레임에 추가
         add(mainPanel);
+        add(footerPanel, BorderLayout.SOUTH);
 
         // JFrame 설정
         setTitle("회원가입");
