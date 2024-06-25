@@ -12,43 +12,74 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SignUp extends JFrame {
-    private JTextField userLoginId;
-    private JPasswordField userPassword;
-    private JPasswordField confirmPasswordField;
-    private JTextField userEmail;
-    private JTextField userNickName;
+    // 로그인 유저 아이디
+    private HintTextField userLoginId;
+    // 비밀번호
+    private HintPasswordField userPassword;
+    // 비밀번호 확인
+    private HintPasswordField confirmPasswordField;
+    // 유저 이메일
+    private HintTextField userEmail;
+    // 유저 닉네임
+    private HintTextField userNickName;
+    // 아이디와 이메일 체크시 확인하는 변수들
     private boolean idAvailable = false;
     private boolean emailAvailable = false;
 
     public SignUp(Index mainPage) {
         // 회원가입 구현할 패널 생성
-        JPanel panel = new JPanel(new GridLayout(6, 2, 10, 10));
-        JPanel panel1 = new JPanel();
+        JPanel mainPanel = new JPanel();
+        // 세로로 쌓이도록 설정
+        mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
+        mainPanel.setBackground(Color.WHITE);
 
-        panel.add(new JLabel("아이디"));
-        panel.add(new Label("(조건 : 영어, 숫자조합으로 5~30글자"));
-        userLoginId = new JTextField();
-        panel.add(userLoginId);
+        // 로그인 부분
+        JPanel topPanel = new JPanel();
+        topPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+        topPanel.setBackground(Color.WHITE);
+        JLabel loginLabel = new JLabel("<HTML><U>로그인 화면으로</U></HTML>");
+        loginLabel.setForeground(Color.BLUE);
+        loginLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        topPanel.add(loginLabel);
+        mainPanel.add(topPanel, BorderLayout.NORTH);
 
-        panel.add(new JLabel("비밀번호 :"));
-        panel.add(new JLabel("(조건 : 대문자,소문자,숫자,특문 포함하여 8글자 ~ 20글자)"));
-        userPassword = new JPasswordField();
-        panel.add(userPassword);
 
-        panel.add(new JLabel("비밀번호 확인 : "));
-        confirmPasswordField = new JPasswordField();
-        panel.add(confirmPasswordField);
+        loginLabel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent e) {
+                dispose();
+                new Login(mainPage);
+            }
+        });
+        JPanel titlePanel = new JPanel();
+        titlePanel.setLayout(new FlowLayout(FlowLayout.CENTER));
+        titlePanel.setBackground(Color.WHITE);
+        // 제목 추가
+        JLabel titleLabel = new JLabel("Sign Up");
+        titleLabel.setFont(new Font("Spoqa Sans", Font.BOLD, 24));
+        // 가운데 정렬
+        titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        titlePanel.add(titleLabel);
+        // 공백 추가
+        mainPanel.add(titlePanel, BorderLayout.NORTH);
 
-        panel.add(new JLabel("이메일"));
-        userEmail = new JTextField();
-        panel.add(userEmail);
+        // 회원 가입할 때 입력할 칸
+        JPanel fieldPanel =
+                new JPanel(new GridBagLayout());
+        fieldPanel.setBackground(Color.WHITE);
 
-        panel.add(new JLabel("닉네임"));
-        panel.add(new Label("(조건 : 한글로 5~30글자"));
-        userNickName = new JTextField();
-        panel.add(userNickName);
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.insets = new Insets(10, 10, 10, 10); // 여백 설정
 
-        // 아이디 중복 검사 버튼 추가
+        userLoginId = new HintTextField("아이디");
+        // 예시로 너비 170, 높이 30 설정
+        userLoginId.setPreferredSize(new Dimension(170, 30));
+        gbc.gridwidth = 2; // 아이디 필드는 2개의 열을 차지하도록 설정
+        fieldPanel.add(userLoginId, gbc);
+
+        gbc.gridx = 2;
+        gbc.gridwidth = 1; // 다음 요소는 한 열만 차지하도록 다시 설정
         JButton checkIdButton = new JButton("중복 검사");
         checkIdButton.addActionListener(new ActionListener() {
             @Override
@@ -56,45 +87,84 @@ public class SignUp extends JFrame {
                 String id = userLoginId.getText();
                 if (check(id)) {
                     JOptionPane.showMessageDialog(null, "사용 가능한 아이디입니다.");
-                    idAvailable = true; // 아이디가 사용 가능한 상태로 변경
+                    idAvailable = true;
                 } else {
                     JOptionPane.showMessageDialog(null, "이미 존재하는 아이디입니다.");
-                    idAvailable = false; // 아이디가 이미 존재하는 상태로 변경
+                    idAvailable = false;
                 }
             }
         });
-        panel.add(checkIdButton);
+        checkIdButton.setBackground(new Color(128, 0, 128));
+        checkIdButton.setForeground(Color.WHITE);
+        checkIdButton.setFocusPainted(false);
+        fieldPanel.add(checkIdButton, gbc);
 
-        // 이메일 중복 검사 버튼 추가
+        gbc.gridx = 0;
+        gbc.gridy++;
+        gbc.gridwidth = 2;
+        userPassword = new HintPasswordField("비밀번호");
+        userPassword.setPreferredSize(new Dimension(170, 30));
+        fieldPanel.add(userPassword, gbc);
+
+        gbc.gridx = 2;
+        gbc.gridwidth = 1;
+        confirmPasswordField = new HintPasswordField("비밀번호 확인");
+        confirmPasswordField.setPreferredSize(new Dimension(170, 30));
+        fieldPanel.add(confirmPasswordField, gbc);
+
+        gbc.gridx = 0;
+        gbc.gridy++;
+        gbc.gridwidth = 2;
+        userEmail = new HintTextField("이메일");
+        userEmail.setPreferredSize(new Dimension(170, 30));
+        fieldPanel.add(userEmail, gbc);
+
+        gbc.gridx = 2;
+        gbc.gridwidth = 1;
         JButton checkEmailButton = new JButton("중복 검사");
-        checkIdButton.addActionListener(new ActionListener() {
+        checkEmailButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String email = userEmail.getText();
                 if (checkEmail(email)) {
                     JOptionPane.showMessageDialog(null, "사용 가능한 이메일입니다.");
-                    emailAvailable = true; // 이메일이 사용 가능한 상태로 변경
+                    emailAvailable = true;
                 } else {
                     JOptionPane.showMessageDialog(null, "이미 존재하는 이메일입니다.");
-                    emailAvailable = false; // 이메일이 이미 존재하는 상태로 변경
+                    emailAvailable = false;
                 }
             }
         });
-        panel.add(checkEmailButton);
+        checkEmailButton.setBackground(new Color(128, 0, 128));
+        checkEmailButton.setForeground(Color.WHITE);
+        checkEmailButton.setFocusPainted(false);
+        fieldPanel.add(checkEmailButton, gbc);
+
+        gbc.gridx = 0;
+        gbc.gridy++;
+        gbc.gridwidth = 2;
+        userNickName = new HintTextField("닉네임");
+        userNickName.setPreferredSize(new Dimension(170, 30));
+        fieldPanel.add(userNickName, gbc);
+
+
+        mainPanel.add(fieldPanel, BorderLayout.CENTER);
 
 
         // 확인 버튼 추가
-        JButton signUpButton = new JButton("가입하기");
-        panel1.add(signUpButton);
-        JButton cancelButton = new JButton("취소");
-        panel1.add(cancelButton);
+        JButton signUpButton = new JButton("등록");
+        signUpButton.setBackground(new Color(128, 0, 128)); // 보라색
+        signUpButton.setForeground(Color.WHITE);
+        signUpButton.setFocusPainted(false);
+        signUpButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        mainPanel.add(signUpButton, gbc);
 
         // 패널을 프레임에 추가
-        add(panel, BorderLayout.CENTER);
-        add(panel1, BorderLayout.SOUTH);
+        add(mainPanel);
 
         // JFrame 설정
-        setSize(400, 350);
+        setTitle("회원가입");
+        setSize(400, 500);
         setLocationRelativeTo(null); // 화면 가운데 정렬
         setVisible(true);
 
@@ -112,10 +182,6 @@ public class SignUp extends JFrame {
                     String nickName = userNickName.getText();
                     System.out.println(id + " : " + password + ", " + confirmPassword + ", " + email + ", " + nickName);
 
-                    if (!checkId(id)) {
-                        JOptionPane.showMessageDialog(null, "영어, 숫자 조합이 5~30글자 이내로 해주세요");
-                        return;
-                    }
 
                     if (!checkNickName(id)) {
                         JOptionPane.showMessageDialog(null, "한글 로 5~30글자 이내로 해주세요");
@@ -176,38 +242,39 @@ public class SignUp extends JFrame {
             }
         });
 
-        // 취소
-        cancelButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                dispose(); // 현재 창 닫기
-                mainPage.setVisible(true); // 메인 창 다시 보이기
-            }
-        });
     }
 
-    // 해당 아이디로 있는지 체크
+    // 해당 아이디가 있는지 그리고 조건에 맞는지 체크
     private static boolean check(String id) {
         try {
-            UserDTO select = UserDAO.select(id);
-            if (select == null) {
-                return true;
+            // DB에 해당 아이디가 있는지 조회
+            UserDTO findUser = UserDAO.select(id);
+            // 영어와 숫자로만 아이디를 작성하게 정규식 설정
+            String regex = "\t^[a-zA-Z0-9]*$";
+            Pattern compile = Pattern.compile(regex);
+            Matcher matcher = compile.matcher(id);
+
+            // 이메일이 없고 정규식 조건에 맞고 5~30글자만 true
+            if (findUser == null) {
+                if (matcher.matches() &&
+                        id.length() <= 5 ||
+                        id.length() >= 30) {
+                    return true;
+                }
             }
+            return false;
         } catch (Exception e) {
             System.out.println("이미 존재하는 회원인지 체크 실패 : " + e.getMessage());
             return false;
         }
-        return false;
     }
 
     // 소문자, 대문자, 0~9 숫자, 특수문자 8자리 이상!(소문자, 대문자 같이 안써도 됨!)
     // 위에서 비밀번호를 생성하기위한 조건을 주기위해서 메소드 만들었다!
     private static boolean checkPw(String userpw) {
         String passwordPolicy = "^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[$@$!%*#?&])[A-Za-z[0-9]$@$!%*#?&]{8,20}$";
-
         Pattern pattern_pwd = Pattern.compile(passwordPolicy);
         Matcher matcher_pwd = pattern_pwd.matcher(userpw);
-
         return matcher_pwd.matches();
     }
 
@@ -216,19 +283,15 @@ public class SignUp extends JFrame {
         String regex = "^[ㄱ-ㅎ가-힣]*$";
         Pattern compile = Pattern.compile(regex);
         Matcher matcher = compile.matcher(nickName);
-        if (matcher.matches() && nickName.length() < 5 || nickName.length() >= 30) {
-            return true;
-        }
-        return false;
-    }
 
-    // 아이디 검사
-    private static boolean checkId(String id) {
-        String regex = "\t^[a-zA-Z0-9]*$";
-        Pattern compile = Pattern.compile(regex);
-        Matcher matcher = compile.matcher(id);
-        if (matcher.matches() && id.length() < 5 || id.length() >= 30) {
-            return true;
+        UserDTO findNickName = UserDAO.selectByNickName(nickName);
+
+        if (findNickName == null) {
+            if (matcher.matches() &&
+                    nickName.length() <= 5 ||
+                    nickName.length() >= 30) {
+                return true;
+            }
         }
         return false;
     }
@@ -239,11 +302,16 @@ public class SignUp extends JFrame {
         String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
         Pattern patternEmail = Pattern.compile(emailPattern);
         Matcher matcherEmail = patternEmail.matcher(email);
-        UserDTO userDTO = UserDAO.selectByEmail(email);
+        // 해당 이메일이 있는지 체크
+        UserDTO findEmail = UserDAO.selectByEmail(email);
 
-        if (matcherEmail.matches() && userDTO == null) {
+        if (matcherEmail.matches() && findEmail == null) {
             return true;
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        new SignUp(new Index());
     }
 }

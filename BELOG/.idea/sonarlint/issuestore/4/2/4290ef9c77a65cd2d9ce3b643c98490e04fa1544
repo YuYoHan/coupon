@@ -1,35 +1,39 @@
 
+p
+java:S1604T"(Make this anonymous inner class a lambda(Ïù†İüÿÿÿÿ8•šï„2J$2bb440a8-e8c8-4b63-b6cc-fdc07e336557
+k
+java:S1604}"(Make this anonymous inner class a lambda(Œ‰ÁÏ8–šï„2J$5472ce70-138b-4930-9538-5b74175d8a9f
+k
+java:S1604¬"(Make this anonymous inner class a lambda(»à·k8–šï„2J$d0dfddc8-018a-4243-9d14-bcf282ad3f76
+”	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕ8–šï„2J$50a55bdf-748d-4432-a22b-5143120a08fe
+”	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…é8–šï„2J$c52ed9f5-0595-4843-ac16-62b1302cb2be
+x
+java:S1066ƒ"/Merge this if statement with the enclosing one.(ñ•í—ıÿÿÿÿ8—šï„2J$d95944a9-536f-4f14-8143-55dccfe32db9
+x
+java:S1066¢"/Merge this if statement with the enclosing one.(ñ•í—ıÿÿÿÿ8—šï„2J$fe409093-6f00-41f8-a49c-d95b19f9c8f3
+	java:S112ğ"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ššï„2J$50980505-dc3d-4f34-acf4-97b9c31edfab
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ù›ç×ıÿÿÿÿ8 šï„2J$1a0e1281-f235-401e-bf10-ffa8d1687aaf
+‚
+java:S11610":Add the "@Override" annotation above this method signature(¨î¹üÿÿÿÿ8£šï„2J$3cb07390-9b86-454c-846f-724828fb110e
+d
+java:S2129³" Remove this "String" constructor(†¤‡•8®šï„2J$a375dff3-5ebe-4f28-85eb-5342d118b4d7
 i
-java:S16045"(Make this anonymous inner class a lambda(Ïù†İüÿÿÿÿJ$96bdde8a-eecb-4486-9772-c04e95bfd071
-i
-java:S1604F"(Make this anonymous inner class a lambda(Ïù†İüÿÿÿÿJ$82caacd9-6186-4273-bcd0-11fb22b33523
-c
-java:S1604f"(Make this anonymous inner class a lambda(»à·kJ$a91e4fca-8fce-4d4d-8549-431dd122a436
-e
-java:S1604´"(Make this anonymous inner class a lambda(™¬ŞÔJ$a5297a9e-8c3d-4bf0-9aa7-d29b3d068427
-	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕJ$aa7e7131-5ac0-4fe0-9229-b338832a4dcf
-	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…éJ$6941a1c2-3ec5-4e3c-9252-e8e0666ff030
-‡	java:S112®"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿJ$e3e871c6-b338-437e-accb-4c4b09e85518
-“
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ù›ç×ıÿÿÿÿJ$3f3a8e79-40ba-47df-8783-ac92b2467c70
-k	java:S106q"+Replace this use of System.out by a logger.(©¯­úıÿÿÿÿJ$724cd9ea-4e7b-4554-afdd-36600001317c
-g	java:S106—"+Replace this use of System.out by a logger.(³Š°J$4af546de-6721-427f-9131-d9fd94131821
-l	java:S106š"+Replace this use of System.out by a logger.(²êÙİúÿÿÿÿJ$07f2c449-f5cb-4243-8946-11deb9b04006
-g	java:S106¡"+Replace this use of System.out by a logger.(Ø¼¢ƒJ$f7a0f05a-5cb6-48c5-b8a4-59da956e7fbb
-g	java:S106Å"+Replace this use of System.out by a logger.(œî¸ÿJ$bd49cd0e-e0f7-4fba-8080-735b4e8501ed
-l
-java:S5869Î"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿJ$7839a0ed-f359-4bf8-bea1-7c5f41ca4bf8
-l
-java:S5869Î"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿJ$f21ba090-19b0-4295-af72-9ef0fa43cded
-~
-java:S6353Î"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿJ$317add9f-5faa-4dde-ad78-bb86524b789c
-~
-java:S6353Î"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿJ$992e2a41-fdb4-452c-9b1a-e9d366941f9b
-~
-java:S1126Û"AReplace this if-then-else statement by a single return statement.(·ÜÆÒJ$8fccfd6e-7641-4722-9076-fcbcea2d97ea
-›
-java:S5996ã"_Remove or replace this boundary that will never match because it appears after mandatory input.(È¦ìJ$0c655ac3-3cc6-47e3-8bb7-1eea8a6dd89b
-ƒ
-java:S1126æ"AReplace this if-then-else statement by a single return statement.(‹’Ú¥ùÿÿÿÿJ$8d338d9a-49fb-442c-9851-3c2730706feb
-ƒ
-java:S1126ô"AReplace this if-then-else statement by a single return statement.(™ÊƒùÿÿÿÿJ$82213c9f-8560-4ee5-8927-1b82ce63842b
+java:S2129´" Remove this "String" constructor(¹À€‰şÿÿÿÿ8®šï„2J$d96ca4fb-c558-4492-b8f4-4563d8418bec
+s	java:S106·"+Replace this use of System.out by a logger.(©¯­úıÿÿÿÿ8®šï„2J$15983be3-fccd-4967-93d2-9e27e9aabd5a
+n	java:S106Ù"+Replace this use of System.out by a logger.(³Š°8°šï„2J$dacc3295-f2dd-4af3-8119-4875400917ee
+s	java:S106Ü"+Replace this use of System.out by a logger.(²êÙİúÿÿÿÿ8°šï„2J$726857b6-7112-406f-a588-2ac48fc51ebe
+n	java:S106ã"+Replace this use of System.out by a logger.(Ø¼¢ƒ8°šï„2J$8a763359-1c24-4961-b6c7-f5a9a0543f13
+¢
+java:S5996ı"_Remove or replace this boundary that will never match because it appears after mandatory input.(È¦ì8²šï„2J$33680dbb-d9ca-441d-a4de-7a66254f9025
+n	java:S106‹"+Replace this use of System.out by a logger.(œî¸ÿ8³šï„2J$9891519d-7802-45f3-9081-c8fd2fcdbeca
+s
+java:S5869“"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8³šï„2J$504d9ee4-eea2-4941-8ba8-0f67afd48324
+s
+java:S5869“"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8´šï„2J$f2ea45de-3361-4b15-a056-100059cb998f
+…
+java:S6353“"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8´šï„2J$a53e255c-0a19-4547-960f-7ddd87de2e4e
+…
+java:S6353“"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8´šï„2J$a2e47efa-7ff1-4b55-8c82-a83136bb67c6
+„
+java:S1126´"AReplace this if-then-else statement by a single return statement.(«‡„v8¶šï„2J$b543425d-1408-4e76-951b-1c9307323ff9

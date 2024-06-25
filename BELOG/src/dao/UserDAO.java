@@ -72,6 +72,36 @@ public class UserDAO {
         return userDTO;
     }
 
+    // 닉네임으로 조회
+    public static UserDTO selectByNickName(String nickName) {
+        String sql = "SELECT * FROM users WHERE NICKNAME = ?";
+        UserDTO userDTO = null;
+        try {
+            connection = JDBCConfig.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, nickName);
+            rs = preparedStatement.executeQuery();
+            userDTO = new UserDTO();
+            while (rs.next()) {
+                userDTO.setUserId(rs.getInt("user_id"));
+                userDTO.setUserLoginID(rs.getString("user_login_id"));
+                userDTO.setUserPw(rs.getString("user_pw"));
+                userDTO.setUserEmail(rs.getString("user_email"));
+                userDTO.setNickName(rs.getString("nickname"));
+                System.out.println(userDTO);
+            }
+        } catch (Exception e) {
+            System.out.println("에러 발생 : " + e.getMessage());
+        } finally {
+            try {
+                JDBCConfig.close(rs, preparedStatement, connection);
+            } catch (Exception e) {
+                System.out.println("에러 발생 : " + e.getMessage());
+            }
+        }
+        return userDTO;
+    }
+
 
     // 유저 등록
     public static int insert(UserDTO user) {
