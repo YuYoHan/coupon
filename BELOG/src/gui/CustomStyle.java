@@ -12,7 +12,7 @@ import java.io.InputStream;
 import javax.swing.border.Border;
 
 public class CustomStyle{
-	//Common display maring
+	//Common display maring 
 	public static int DISPLAY_MARGIN = 96;
 	
 	//Font
