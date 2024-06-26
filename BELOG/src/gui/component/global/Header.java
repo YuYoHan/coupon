@@ -1,17 +1,17 @@
-package gui;
+package gui.component.global;
 
 import java.awt.BorderLayout;
 import java.awt.Cursor;
 import java.awt.FlowLayout;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.util.Arrays;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import gui.CustomStyle;
 import gui.component.buttons.DefaultButton;
 import gui.component.buttons.TextButton;
 
@@ -22,7 +22,7 @@ public class Header extends JPanel{
 	private DefaultButton buttonLogout = new DefaultButton("로그아웃");
 	private DefaultButton buttonSignUp = new DefaultButton("회원가입");
 	//첫번째 매개변수 : 메뉴 이동 버튼, 두번째 매개변수 : 로그인 로그아웃 회원가입 등의 버튼
-	Header(){
+	public Header(){
 		setLayout(new BorderLayout());
 		setBorder(new EmptyBorder(24, CustomStyle.DISPLAY_MARGIN, 24, CustomStyle.DISPLAY_MARGIN));
 		setBackground(CustomStyle.white);
@@ -84,7 +84,7 @@ public class Header extends JPanel{
 		return buttonSignUp;
 	}
 
-	class NavButton extends TextButton{
+	public class NavButton extends TextButton{
 		boolean isCurrent = false;
 		boolean isVisible = true;
 		NavButton(String navMenuText){
