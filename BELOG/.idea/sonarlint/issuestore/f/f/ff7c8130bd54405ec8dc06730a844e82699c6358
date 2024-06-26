@@ -1,47 +1,47 @@
 
-™
-java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(ıØÕá8¶˜Å„2J$613fcdd9-bb52-470c-996c-e764876f95ce
- 
-java:S1104"]Make preparedStatement a static final constant or non-public and provide accessors if needed.(…¬Ş8¶˜Å„2J$43631012-bf53-4af1-9c38-0bec2444e9f3
-–
-java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(†‡Û ıÿÿÿÿ8¶˜Å„2J$14a7b4e1-49b5-4d3f-ac6c-1e993d8dbc00
 s
-java:S1444"0Make this "public static connection" field final(ıØÕá8·˜Å„2J$c4796a6a-6891-4b3e-ae5f-078b67b547ce
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(ıØÕá8µš•…2
 z
-java:S1444"7Make this "public static preparedStatement" field final(…¬Ş8·˜Å„2J$d682cf8d-04c0-4944-bb3a-2d11c683261a
+java:S1104"]Make preparedStatement a static final constant or non-public and provide accessors if needed.(…¬Ş8µš•…2
 p
-java:S1444"(Make this "public static rs" field final(†‡Û ıÿÿÿÿ8·˜Å„2J$befe30e4-b128-4cc9-a640-a643dbe91ba2
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ²’Å„2J$db604353-1ab1-4ca9-b014-85770ddf8055
-Š
-java:S1192"HDefine a constant instead of duplicating this literal "user_pw" 3 times.(º­›}8û¬¢ç„2J$70d2251e-e2be-4d7e-a410-ad7105073c24
-
-java:S1192"KDefine a constant instead of duplicating this literal "user_email" 3 times.(ïµ¡À8û¬¢ç„2J$2c9f15e4-7f5c-4a17-83e6-5811bdf60d8d
-”
-java:S1192""QDefine a constant instead of duplicating this literal "ì—ëŸ¬ ë°œìƒ : " 7 times.(›Çéà8Æ’•Å„2J$89e407f9-4e82-4b7f-9010-3e7693e4dda6
-‘
-java:S1192"NDefine a constant instead of duplicating this literal "user_login_id" 3 times.(ùÍ´ë8ı¬¢ç„2J$275acc18-dc54-485e-904f-e6e41af3858d
-‹
-java:S1192"HDefine a constant instead of duplicating this literal "user_id" 3 times.(ˆèÍŠ8ı¬¢ç„2J$e3d691f2-a85a-421d-80da-25cfd377875d
-Œ
-java:S1192"IDefine a constant instead of duplicating this literal "nickname" 3 times.(×›8ş¬¢ç„2J$102e9b74-00f0-45e1-a749-971f6959e8fb
-}
+java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(†‡Û ıÿÿÿÿ8µš•…2
+M
+java:S1444"0Make this "public static connection" field final(ıØÕá8¸š•…2
+T
+java:S1444"7Make this "public static preparedStatement" field final(…¬Ş8¸š•…2
+J
+java:S1444"(Make this "public static rs" field final(†‡Û ıÿÿÿÿ8¸š•…2
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸š•…2
+d
+java:S1192"HDefine a constant instead of duplicating this literal "user_pw" 3 times.(º­›}8¹š•…2
+h
+java:S1192"KDefine a constant instead of duplicating this literal "user_email" 3 times.(ïµ¡À8¹š•…2
+n
+java:S1192""QDefine a constant instead of duplicating this literal "ì—ëŸ¬ ë°œìƒ : " 7 times.(›Çéà8¹š•…2
+k
+java:S1192"NDefine a constant instead of duplicating this literal "user_login_id" 3 times.(ùÍ´ë8¹š•…2
+e
+java:S1192"HDefine a constant instead of duplicating this literal "user_id" 3 times.(ˆèÍŠ8¹š•…2
+f
+java:S1192"IDefine a constant instead of duplicating this literal "nickname" 3 times.(×›8ºš•…2
+W
 java:S1118
-":Add a private constructor to hide the implicit public one.(ÁÇæÅ8¹˜Å„2J$43f9e68c-0479-492e-8e4e-37b9983c7b5a
-g
-java:S6905"Don't use the query "SELECT *".(¥¤€şüÿÿÿÿ8Ë’•Å„2J$05bead78-d9ac-42a6-ac1b-65d740555a1d
-m	java:S106"+Replace this use of System.out by a logger.(û¸–Ü8¾²’Å„2J$92ee6eee-4ec3-4375-b6b1-43f167a479d9
-m	java:S106""+Replace this use of System.out by a logger.(›Çéà8¾²’Å„2J$a6a2a8db-fcdb-4721-ac5d-2f54d8676f27
-m	java:S106'"+Replace this use of System.out by a logger.(›Çéà8À²’Å„2J$501ef39b-3ab3-4c08-b668-710c590cfa55
-b
-java:S6905/"Don't use the query "SELECT *".(¥çÆ8ªÈÅ„2J$ceb976ee-32be-4f93-b62b-0fadfa0784f5
-m	java:S106="+Replace this use of System.out by a logger.(û¸–Ü8Ñ’•Å„2J$9d7d5ef5-5288-45bc-97ed-62b563b6b7b0
-m	java:S106@"+Replace this use of System.out by a logger.(›Çéà8Ñ’•Å„2J$e4782890-dae8-409e-aca0-eda1973da2dc
-m	java:S106E"+Replace this use of System.out by a logger.(›Çéà8Ó’•Å„2J$3dc27103-7b9b-4517-a90a-911cda6d1b4e
-g
-java:S6905M"Don't use the query "SELECT *".(—¤èğüÿÿÿÿ8­¢ç„2J$8ee67915-14ad-4bfa-a398-468f2ada27d8
-m	java:S106["+Replace this use of System.out by a logger.(û¸–Ü8ªÈÅ„2J$cdf757be-defb-4569-b1a8-bf410e676ff5
-m	java:S106^"+Replace this use of System.out by a logger.(›Çéà8ªÈÅ„2J$f6f02bf9-fb06-4378-a078-692c7865cb07
-m	java:S106c"+Replace this use of System.out by a logger.(›Çéà8ªÈÅ„2J$650fa66c-1bd4-4e00-8f3e-ae8a5ff777e2
-s	java:S106‡"+Replace this use of System.out by a logger.(è¯¥ˆùÿÿÿÿ8•­¢ç„2J$14b0ac97-c23c-4587-8a17-4ff854ba0bf7
-n	java:S106Š"+Replace this use of System.out by a logger.(¬Ûš8•­¢ç„2J$b54393a9-411f-44e4-9124-8d4d74bf5523
-n	java:S106“"+Replace this use of System.out by a logger.(›Çéà8—­¢ç„2J$72fe3263-914d-4d8b-861b-a3146ac38b1e
+":Add a private constructor to hide the implicit public one.(ÁÇæÅ8½š•…2
+A
+java:S6905"Don't use the query "SELECT *".(¥¤€şüÿÿÿÿ8¿š•…2
+G	java:S106"+Replace this use of System.out by a logger.(û¸–Ü8Áš•…2
+G	java:S106""+Replace this use of System.out by a logger.(›Çéà8Áš•…2
+G	java:S106'"+Replace this use of System.out by a logger.(›Çéà8Áš•…2
+<
+java:S6905/"Don't use the query "SELECT *".(¥çÆ8Ãš•…2
+G	java:S106="+Replace this use of System.out by a logger.(û¸–Ü8Äš•…2
+G	java:S106@"+Replace this use of System.out by a logger.(›Çéà8Åš•…2
+G	java:S106E"+Replace this use of System.out by a logger.(›Çéà8Åš•…2
+A
+java:S6905M"Don't use the query "SELECT *".(—¤èğüÿÿÿÿ8Æš•…2
+G	java:S106["+Replace this use of System.out by a logger.(û¸–Ü8Èš•…2
+G	java:S106^"+Replace this use of System.out by a logger.(›Çéà8Èš•…2
+G	java:S106c"+Replace this use of System.out by a logger.(›Çéà8Éš•…2
+M	java:S106‡"+Replace this use of System.out by a logger.(è¯¥ˆùÿÿÿÿ8Ìš•…2
+H	java:S106Š"+Replace this use of System.out by a logger.(¬Ûš8Ìš•…2
+H	java:S106“"+Replace this use of System.out by a logger.(›Çéà8Îš•…2

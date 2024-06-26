@@ -6,6 +6,10 @@ create table users (
     nickName varchar2(30) not null
 );
 
+alter table users modify user_pw varchar2(1000);
+
+select * from users;
+
 create table post(
     post_id number primary key ,
     post_title varchar2(30) not null ,

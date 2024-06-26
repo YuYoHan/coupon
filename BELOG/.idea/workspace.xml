@@ -6,18 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3b70195e-7311-45ff-ad0a-7953ca20956b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2729339ecb3559abf49fe964341d221c397a080c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2729339ecb3559abf49fe964341d221c397a080c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bd63daa2f5abf29c3ae12c6392d96ccf339efb1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bd63daa2f5abf29c3ae12c6392d96ccf339efb1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea/storage_v2/_src_/schema/C__MADANG.LVBFxA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea/storage_v2/_src_/schema/C__MADANG.LVBFxA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff7c8130bd54405ec8dc06730a844e82699c6358" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff7c8130bd54405ec8dc06730a844e82699c6358" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/CustomStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/CustomStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/HintPasswordField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/global/HintPasswordField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/HintTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/global/HintTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/user/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/user/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/user/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/BELOG.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/BELOG.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/component/user/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/user/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +47,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/study/Java/KOSTA_Board/BELOG/src/gui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.SignUp.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/study/Java/KOSTA_Board/BELOG/src/gui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Index.executor": "Run",
+    "애플리케이션.SignUp.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\Java\KOSTA_Board\BELOG\src\gui" />
@@ -90,12 +94,72 @@
       <workItem from="1719205311552" duration="8965000" />
       <workItem from="1719273098352" duration="11256000" />
       <workItem from="1719300841331" duration="2849000" />
-      <workItem from="1719367134364" duration="3736000" />
+      <workItem from="1719367134364" duration="7552000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>313</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>312</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>309</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>306</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>305</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/gui/component/user/SignUp.java</url>
+          <line>304</line>
+          <properties class="gui.component.user.SignUp" method="check">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

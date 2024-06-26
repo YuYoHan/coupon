@@ -179,6 +179,10 @@ public class SignUp extends JFrame {
                     System.out.println(email);
                     JOptionPane.showMessageDialog(null, "이메일을 입력하세요");
                     emailAvailable = false;
+                } else if (email.matches("^[가-힣]*$") ||
+                        email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$")) {
+                    JOptionPane.showMessageDialog(null, "이메일 형식을 맞춰주세요.");
+                    emailAvailable = false;
                 } else {
                     JOptionPane.showMessageDialog(null, "이미 존재하는 이메일입니다.");
                     emailAvailable = false;
@@ -239,22 +243,16 @@ public class SignUp extends JFrame {
                     System.out.println(id + " : " + password + ", " + confirmPassword + ", " + email + ", " + nickName);
 
 
-                    if (!checkNickName(id)) {
-                        JOptionPane.showMessageDialog(null, "한글로 5~30글자 이내로 해주세요");
+                    if (!checkNickName(nickName)) {
+                        JOptionPane.showMessageDialog(null, "한글로 4~30글자 이내로 해주세요");
                         return;
                     }
 
-                    // 아이디 중복 체크
-                    if (!idAvailable) {
-                        JOptionPane.showMessageDialog(null, "아이디를 확인해주세요.");
-                        return; // 중복되는 아이디일 경우 회원가입 중지
+                    if(idAvailable == false || emailAvailable == false) {
+                        JOptionPane.showMessageDialog(null, "회원가입 실패했습니다.");
+                        return;
                     }
 
-                    // 이메일 중복 체크
-                    if (!emailAvailable || email == null) {
-                        JOptionPane.showMessageDialog(null, "이메일를 확인해주세요.");
-                        return; // 중복되는 이메일일 경우 회원가입 중지
-                    }
 
                     // 비밀번호 조건 검사
                     if (!checkPw(password) || !checkPw(confirmPassword)) {
@@ -266,12 +264,6 @@ public class SignUp extends JFrame {
                     if (!password.equals(confirmPassword)) {
                         JOptionPane.showMessageDialog(null, "비밀번호가 일치하지 않습니다.");
                         return; // 비밀번호 불일치 시 메서드 종료
-                    }
-
-                    // 닉네임 체크
-                    if (!checkNickName(nickName)) {
-                        JOptionPane.showMessageDialog(null, "닉네임을 확인하세요");
-                        return;
                     }
 
 
@@ -319,12 +311,11 @@ public class SignUp extends JFrame {
             String regex = "^[a-zA-Z0-9]{5,30}$";
             Pattern pattern = Pattern.compile(regex);
             Matcher matcher = pattern.matcher(id);
+            System.out.println("아이디 검증 : " + matcher.matches());
 
-            // 이메일이 없고 정규식 조건에 맞고 5에서 30 글자 사이인 경우 true 반환
-            if (findUser == null && matcher.matches()) {
-                return true;
+            if (findUser.getUserLoginID() == null) {
+                return matcher.matches();
             }
-
             return false;
         } catch (Exception e) {
             System.out.println("이미 존재하는 회원인지 체크 실패 : " + e.getMessage());
@@ -344,15 +335,17 @@ public class SignUp extends JFrame {
 
     // 닉네임 검사
     private static boolean checkNickName(String nickName) {
-        String regex = "^[ㄱ-ㅎ가-힣]{5,30}$";
+        String regex = "^[ㄱ-ㅎ가-힣]{4,30}$";
         System.out.println("닉네임 체크 : " + nickName);
         Pattern compile = Pattern.compile(regex);
         Matcher matcher = compile.matcher(nickName);
+        System.out.println(matcher);
 
         UserDTO findNickName = UserDAO.selectByNickName(nickName);
+        System.out.println(findNickName);
 
-        if (findNickName == null && matcher.matches()) {
-            return true;
+        if (findNickName.getNickName() == null) {
+            return matcher.matches();
         }
         return false;
     }
@@ -366,9 +359,12 @@ public class SignUp extends JFrame {
         Matcher matcherEmail = patternEmail.matcher(email);
         // 해당 이메일이 있는지 체크
         UserDTO findEmail = UserDAO.selectByEmail(email);
+        System.out.println("이메일 조회 : " + findEmail);
+        System.out.println(matcherEmail.matches());
 
-        if (matcherEmail.matches() && findEmail == null) {
-            return true;
+
+        if (findEmail.getUserEmail() == null) {
+            return matcherEmail.matches();
         }
         return false;
     }

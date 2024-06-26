@@ -106,13 +106,13 @@ public class UserDAO {
     // 유저 등록
     public static int insert(UserDTO user) {
         String sql = "INSERT INTO users (user_login_id, user_pw, user_email, nickname) VALUES (?, ?, ?, ?)";
-        return connectDB(sql, user);
+        return connectDB(sql, user.getUserLoginID(), user.getUserPw(), user.getUserEmail(), user.getNickName());
     }
 
     // 유저 수정
     public static int update(UserDTO user, int userId) {
         String sql = "UPDATE users SET user_pw = ?, user_email = ?, nickname = ? WHERE user_id = ?";
-        return connectDB(sql, user, userId);
+        return connectDB(sql, user.getUserPw(), user.getUserEmail(), user.getNickName(), userId);
     }
 
     // 유저 삭제
