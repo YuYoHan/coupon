@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b70195e-7311-45ff-ad0a-7953ca20956b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea/storage_v2/_src_/schema/C__MADANG.LVBFxA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20f890ca-fe20-4f1c-a906-4bb1786f0cea/storage_v2/_src_/schema/C__MADANG.LVBFxA.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff7c8130bd54405ec8dc06730a844e82699c6358" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff7c8130bd54405ec8dc06730a844e82699c6358" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/BELOG.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/BELOG.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/component/user/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/component/user/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +79,7 @@
       <workItem from="1719205311552" duration="8965000" />
       <workItem from="1719273098352" duration="11256000" />
       <workItem from="1719300841331" duration="2849000" />
-      <workItem from="1719367134364" duration="7552000" />
+      <workItem from="1719367134364" duration="7953000" />
     </task>
     <servers />
   </component>

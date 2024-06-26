@@ -368,8 +368,4 @@ public class SignUp extends JFrame {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        new SignUp(new Index());
-    }
 }
