@@ -1,61 +1,61 @@
 
+›
+java:S1104"ZMake DISPLAY_MARGIN a static final constant or non-public and provide accessors if needed.(Åæİ²ıÿÿÿÿJ$d9076630-8f07-4355-866a-39011ddc6af1
+’
+java:S1104."QMake white a static final constant or non-public and provide accessors if needed.(ÅÈ•ƒÿÿÿÿÿJ$42594526-683a-4b98-8eb5-27f1ef79d2a2
+
+java:S1104/"QMake black a static final constant or non-public and provide accessors if needed.(°î§J$b2a81da6-d3e9-4917-b11b-c0a40436d2bf
+”
+java:S11040"SMake black50 a static final constant or non-public and provide accessors if needed.(õÂÿğøÿÿÿÿJ$97b1615c-f6da-4d30-8bd6-e12d905dda15
+–
+java:S11041"UMake mainColor a static final constant or non-public and provide accessors if needed.(…ƒğØùÿÿÿÿJ$d34e858a-5062-4246-862c-36fe8d706a85
+’
+java:S11042"VMake hoverColor a static final constant or non-public and provide accessors if needed.(Ş§è¤J$41efd7b0-b68c-4270-b0aa-11f7d1dfb9e7
+™
+java:S11043"]Make primaryhoverColor a static final constant or non-public and provide accessors if needed.(îË„‘J$dd2b6d80-2935-4821-b9f6-5441d4356d89
+š
+java:S11044"^Make primaryactiveColor a static final constant or non-public and provide accessors if needed.(¨ù½“J$40d767ad-f03b-497c-8313-4af2c1d61094
+“
+java:S11045"WMake activeColor a static final constant or non-public and provide accessors if needed.(É“ı’J$81d6606e-5028-45c2-b8f4-cea704a75141
+™
+java:S11046"XMake transparency a static final constant or non-public and provide accessors if needed.(Ğşë²ÿÿÿÿÿJ$d18e6828-5c17-474a-8fd9-781bfc94f612
+
+java:S11047"]Make buttonBorderColor a static final constant or non-public and provide accessors if needed.(“üÈ»ùÿÿÿÿJ$2d00147f-3ff5-4beb-b1fb-328916f02040
+“
+java:S11048"WMake borderColor a static final constant or non-public and provide accessors if needed.(óèÒÉJ$41c809a6-41e6-4353-81e7-12ef3f3cc11b
 u
-java:S1104"ZMake DISPLAY_MARGIN a static final constant or non-public and provide accessors if needed.(Åæİ²ıÿÿÿÿ
+java:S1444"4Make this "public static DISPLAY_MARGIN" field final(Åæİ²ıÿÿÿÿJ$f8664a56-2833-4900-b5b4-1e662bbc0297
 l
-java:S1104-"QMake white a static final constant or non-public and provide accessors if needed.(ÅÈ•ƒÿÿÿÿÿ
+java:S1444."+Make this "public static white" field final(ÅÈ•ƒÿÿÿÿÿJ$57347177-4393-4535-b43b-4500a29cf061
 g
-java:S1104."QMake black a static final constant or non-public and provide accessors if needed.(°î§
+java:S1444/"+Make this "public static black" field final(°î§J$927236f7-f1c9-409f-8197-cbb62c6c36e4
 n
-java:S1104/"SMake black50 a static final constant or non-public and provide accessors if needed.(õÂÿğøÿÿÿÿ
+java:S14440"-Make this "public static black50" field final(õÂÿğøÿÿÿÿJ$1c66720b-55ef-420b-bf5b-a314d48c3644
 p
-java:S11040"UMake mainColor a static final constant or non-public and provide accessors if needed.(…ƒğØùÿÿÿÿ
+java:S14441"/Make this "public static mainColor" field final(…ƒğØùÿÿÿÿJ$3b41927e-ab96-4774-b7d4-7943c94ba4d5
 l
-java:S11041"VMake hoverColor a static final constant or non-public and provide accessors if needed.(Ş§è¤
+java:S14442"0Make this "public static hoverColor" field final(Ş§è¤J$5b851315-fb10-40c0-9ce4-a55ff04cf240
 s
-java:S11042"]Make primaryhoverColor a static final constant or non-public and provide accessors if needed.(îË„‘
+java:S14443"7Make this "public static primaryhoverColor" field final(îË„‘J$8aa88dc4-373a-4826-a0bc-d1fdb7b1d9e9
 t
-java:S11043"^Make primaryactiveColor a static final constant or non-public and provide accessors if needed.(¨ù½“
+java:S14444"8Make this "public static primaryactiveColor" field final(¨ù½“J$955a660e-60e0-4186-b1ba-5318a898c63e
 m
-java:S11044"WMake activeColor a static final constant or non-public and provide accessors if needed.(É“ı’
+java:S14445"1Make this "public static activeColor" field final(É“ı’J$9b739191-91f1-4adf-8e52-d52efed0009c
 s
-java:S11045"XMake transparency a static final constant or non-public and provide accessors if needed.(Ğşë²ÿÿÿÿÿ
+java:S14446"2Make this "public static transparency" field final(Ğşë²ÿÿÿÿÿJ$fc003483-cbaa-4c39-9c57-2e0670086ead
 x
-java:S11046"]Make buttonBorderColor a static final constant or non-public and provide accessors if needed.(“üÈ»ùÿÿÿÿ
+java:S14447"7Make this "public static buttonBorderColor" field final(“üÈ»ùÿÿÿÿJ$58cd925e-2f22-4428-a8f2-c4b28a73e0b6
 m
-java:S11047"WMake borderColor a static final constant or non-public and provide accessors if needed.(óèÒÉ
-O
-java:S1444"4Make this "public static DISPLAY_MARGIN" field final(Åæİ²ıÿÿÿÿ
-F
-java:S1444-"+Make this "public static white" field final(ÅÈ•ƒÿÿÿÿÿ
-A
-java:S1444."+Make this "public static black" field final(°î§
-H
-java:S1444/"-Make this "public static black50" field final(õÂÿğøÿÿÿÿ
-J
-java:S14440"/Make this "public static mainColor" field final(…ƒğØùÿÿÿÿ
-F
-java:S14441"0Make this "public static hoverColor" field final(Ş§è¤
-M
-java:S14442"7Make this "public static primaryhoverColor" field final(îË„‘
-N
-java:S14443"8Make this "public static primaryactiveColor" field final(¨ù½“
-G
-java:S14444"1Make this "public static activeColor" field final(É“ı’
-M
-java:S14445"2Make this "public static transparency" field final(Ğşë²ÿÿÿÿÿ
-R
-java:S14446"7Make this "public static buttonBorderColor" field final(“üÈ»ùÿÿÿÿ
-G
-java:S14447"1Make this "public static borderColor" field final(óèÒÉ
+java:S14448"1Make this "public static borderColor" field final(óèÒÉJ$3bd000f5-f211-492c-954b-c3bd672eeaeb
+š
+java:S3008"YRename this field "DISPLAY_MARGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæİ²ıÿÿÿÿJ$188b8d60-7cfe-443f-b80c-64a6df81b48d
+Œ
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(èª›ØøÿÿÿÿJ$c1c4947b-3e13-4c5c-bafb-505705f4c106
+b	java:S131""Add a default case to this switch.(èª›ØøÿÿÿÿJ$a8d0da5f-3098-48e0-a250-4306bc8fcaec
+f	java:S106'"+Replace this use of System.err by a logger.(Úÿ»…J$a520ff89-5a0e-4d80-a95c-d148f754617d
+
+java:S1172I"QRemove these unused method parameters "radius1", "radius2", "radius3", "radius4".(ÀÔÍÜJ$5867eafd-02a9-42f3-a2fd-065a9e7fd697
 t
-java:S3008"YRename this field "DISPLAY_MARGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæİ²ıÿÿÿÿ
-f
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(èª›Øøÿÿÿÿ
-<	java:S131""Add a default case to this switch.(èª›Øøÿÿÿÿ
-@	java:S106&"+Replace this use of System.err by a logger.(Úÿ»…
-g
-java:S1172H"QRemove these unused method parameters "radius1", "radius2", "radius3", "radius4".(ÀÔÍÜ
-N
-java:S1135…"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-N
-java:S1135‹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+java:S1135†"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿJ$de3bb773-6bf6-4378-8033-ff59d4d6ab2a
+t
+java:S1135Œ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿJ$1a03c69c-e798-40d1-96d9-2c77b4b83fc5

@@ -28,3 +28,15 @@ N
 src/gui/HintPasswordField.java,3\b\3b4cbed1c7e7589871dbb5af37c828da6f261c12
 C
 src/gui/Header.java,e\4\e44513c886ead5e886f4318e42c3b7f77494cd6c
+R
+"src/gui/component/user/SignUp.java,1\4\14ed9f635c007571b530db75b6b396291d416878
+_
+/src/gui/component/global/HintPasswordField.java,0\1\01083bd4afe2f6f5d3c7fe43850751df22cd7eb7
+[
++src/gui/component/global/HintTextField.java,c\d\cd612e9d91962f3f8917e7d5694bbb7bbf540898
+Y
+)src/gui/component/buttons/Pagenation.java,d\a\dae52f5c60d50cf7c8b1155e8e37b4bdac32ffb5
+[
++src/gui/component/buttons/RoundButtons.java,9\6\962a327f2662c64436cd2adef0d472ad1b79badb
+Y
+)src/gui/component/buttons/TextButton.java,b\4\b440ff98b1fae9b05ffafcfc36bcae9b250adffb

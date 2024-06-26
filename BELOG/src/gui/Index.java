@@ -1,6 +1,8 @@
 package gui;
 
 import config.SessionManager;
+import gui.component.user.Login;
+import gui.component.user.SignUp;
 
 import javax.swing.*;
 import java.awt.*;

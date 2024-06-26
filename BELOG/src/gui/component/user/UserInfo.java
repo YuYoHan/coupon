@@ -1,9 +1,10 @@
-package gui;
+package gui.component.user;
 
 
 import config.PasswordEncode;
 import dao.UserDAO;
 import dto.UserDTO;
+import gui.Index;
 
 import javax.swing.*;
 import java.awt.*;

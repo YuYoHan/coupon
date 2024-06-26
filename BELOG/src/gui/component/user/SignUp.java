@@ -1,8 +1,11 @@
-package gui;
+package gui.component.user;
 
 import config.PasswordEncode;
 import dao.UserDAO;
 import dto.UserDTO;
+import gui.component.global.HintPasswordField;
+import gui.component.global.HintTextField;
+import gui.Index;
 
 import javax.swing.*;
 import java.awt.*;
