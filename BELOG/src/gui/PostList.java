@@ -24,6 +24,9 @@ public class PostList extends JFrame{
 	PostList(){
 		//S:header
 		Header header = new Header();
+		header.getButtonLogout().setVisible(false);
+		header.getButtonSignUp().setVisible(false);
+		header.getButtonPostList().setIsCurrent(true);
 		add(header, BorderLayout.NORTH);
 		//E:header
 		

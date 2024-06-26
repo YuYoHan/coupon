@@ -40,3 +40,5 @@ Y
 +src/gui/component/buttons/RoundButtons.java,9\6\962a327f2662c64436cd2adef0d472ad1b79badb
 Y
 )src/gui/component/buttons/TextButton.java,b\4\b440ff98b1fae9b05ffafcfc36bcae9b250adffb
+E
+src/gui/PostList.java,c\8\c8066a19721184c4b9a922066ad71bd87fd3adf5
