@@ -13,6 +13,7 @@ public class HintTextField extends JTextField {
         this.hint = hint;
         this.showingHint = true;
         setForeground(Color.GRAY); // 초기 텍스트 색상을 회색으로 설정
+
         super.addFocusListener(new java.awt.event.FocusAdapter() {
             @Override
             public void focusGained(java.awt.event.FocusEvent e) {
@@ -31,6 +32,8 @@ public class HintTextField extends JTextField {
                     // 입력이 없는 경우 다시 회색으로 변경
                     setForeground(Color.GRAY);
                     showingHint = true;
+                } else {
+                    showingHint = false;
                 }
             }
         });
@@ -38,7 +41,10 @@ public class HintTextField extends JTextField {
 
     @Override
     public String getText() {
-        return showingHint ? "" : super.getText();
+        System.out.println("getText 체크 : " + super.getText());
+        String result = showingHint ? "" : super.getText();
+        System.out.println("result : " + result);
+        return result;
     }
 
     @Override
@@ -56,7 +62,10 @@ public class HintTextField extends JTextField {
             // hint는 힌트 텍스트의 내용을 나타내며, getInsets().left는
             // 텍스트 필드의 좌측 여백 위치를 가져오고, getFont().getSize() + padding - 2는
             // 텍스트가 세로 중앙에 위치하도록 계산한 값을 나타냅니다.
-            g.drawString(hint, getInsets().left, getFont().getSize() + padding - 2);
+            g.drawString(
+                    hint,
+                    getInsets().left,
+                    getFont().getSize() + padding - 2);
         }
     }
 

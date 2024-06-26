@@ -19,10 +19,10 @@ B
 src/gui/Login.java,c\1\c18dbe78069fd12f39001ac17b813e756476f44d
 J
 src/gui/HintTextField.java,e\a\ea8f0590c6244338e22a612b57b684daf8c457a1
->
-src/.gitignore,9\3\93cbdd0973c9a7b59e5cef90a94300ab95fd66e5
 H
 src/gui/CustomStyle.java,5\b\5bd63daa2f5abf29c3ae12c6392d96ccf339efb1
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+N
+src/gui/HintPasswordField.java,3\b\3b4cbed1c7e7589871dbb5af37c828da6f261c12

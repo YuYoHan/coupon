@@ -1,17 +1,17 @@
 
 j
-java:S1604)"(Make this anonymous inner class a lambda(»à·k8²Ÿ¬Ä„2J$eb6e5883-6b53-42ed-8853-19fb7e400796
+java:S1604)"(Make this anonymous inner class a lambda(»à·k8²Ÿ¬Ä„2J$32be3020-5391-4305-9a22-c601392cb6a4
 k
-java:S16041"(Make this anonymous inner class a lambda(ÖãºÂ8²Ÿ¬Ä„2J$917e868f-df26-4888-8557-70f91ca17206
+java:S16041"(Make this anonymous inner class a lambda(ÖãºÂ8²Ÿ¬Ä„2J$7081e457-592f-4fc2-a407-a6f142049d37
 p
-java:S1604P"(Make this anonymous inner class a lambda(ïñ¶ıÿÿÿÿ8ìÓëÅ„2J$827531d3-f6f5-48b9-9c43-91ce562085ba
+java:S1604P"(Make this anonymous inner class a lambda(ïñ¶ıÿÿÿÿ8ìÓëÅ„2J$6365b136-cb76-4a53-bf35-d00083878f3c
 j
-java:S1604Z"(Make this anonymous inner class a lambda(îŞâ8ìÓëÅ„2J$0b198823-be06-4535-9f9e-6bf526c9806a
-˜	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Çí¹ÿÿÿÿÿ8ìÓëÅ„2J$852b7227-b8c1-4b84-af51-ec2b55b07af1
-“	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ã·­8ìÓëÅ„2J$20c434d8-e37e-405d-85fc-5cc44df96451
-“	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™áÄ8ìÓëÅ„2J$d294c38c-0d0c-4dbb-a073-b0382db5094c
-m	java:S106>"+Replace this use of System.out by a logger.(ÕÚÇë8ùÓëÅ„2J$d9dc707a-8766-437b-8bf8-c99988e1efb2
-m	java:S106S"+Replace this use of System.out by a logger.(ù‘üÍ8ûÓëÅ„2J$ca749753-7826-42dd-ad56-d9e645220125
+java:S1604Z"(Make this anonymous inner class a lambda(îŞâ8ìÓëÅ„2J$0708bcdb-5021-47fd-8e54-2496b807516e
+˜	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Çí¹ÿÿÿÿÿ8ìÓëÅ„2J$681d81be-9f09-43f4-8935-0c16aaf834af
+“	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ã·­8ìÓëÅ„2J$7b93128d-cc7e-47da-b0e4-f091b66b5592
+“	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™áÄ8ìÓëÅ„2J$bfb0785d-5fc1-44b5-88e6-1c6c5dc3d07e
+m	java:S106>"+Replace this use of System.out by a logger.(ÕÚÇë8ùÓëÅ„2J$bb135875-54a2-4249-9f57-061150836926
+m	java:S106S"+Replace this use of System.out by a logger.(ù‘üÍ8ûÓëÅ„2J$46760e0a-81bd-4427-ae34-c3c9b8798363
 ^
-java:S3626`"Remove this redundant jump.(ûÁİ…8ıÓëÅ„2J$0a5fb8cd-053e-4f00-8c9d-998c7852ead1
-r	java:S106]"+Replace this use of System.out by a logger.(‡ÚÊüúÿÿÿÿ8ıÓëÅ„2J$1e08af31-758c-4659-a28f-20d772f7d872
+java:S3626`"Remove this redundant jump.(ûÁİ…8ıÓëÅ„2J$fefc27dd-786c-46c3-95d3-f5f8889da3f3
+r	java:S106]"+Replace this use of System.out by a logger.(‡ÚÊüúÿÿÿÿ8ıÓëÅ„2J$5e7faf52-a20c-45df-99bf-5d8963be40fb

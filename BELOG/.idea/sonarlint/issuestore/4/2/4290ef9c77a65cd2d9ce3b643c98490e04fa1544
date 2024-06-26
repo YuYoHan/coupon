@@ -1,36 +1,47 @@
 
 p
-java:S1604U"(Make this anonymous inner class a lambda(Ïù†İüÿÿÿÿ8Æ©Õó„2J$ec03fa12-5b1b-4427-bec5-149b1b6aa717
+java:S1604V"(Make this anonymous inner class a lambda(Ïù†İüÿÿÿÿ8ÁœÊ’…2J$a4e8d7b7-5ab7-4644-8d2b-0aa40e971652
 l
-java:S1604"(Make this anonymous inner class a lambda(Œ‰ÁÏ8Ç©Õó„2J$8926b1b6-21a7-4bf3-862f-b950d4e3a56a
+java:S1604¦"(Make this anonymous inner class a lambda(Œ‰ÁÏ8ÃœÊ’…2J$480931b0-3c93-44bf-8ea7-2364c1371fb4
 k
-java:S1604º"(Make this anonymous inner class a lambda(»à·k8Ç©Õó„2J$86f56f40-abdd-443a-bcde-5882d0276679
-”	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕ8È©Õó„2J$f45bced0-256e-44f6-a394-20c3c7c367dc
-”	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…é8È©Õó„2J$cba7957e-0c80-4b51-ab1c-5c51e99100ac
-x
-java:S1066š"/Merge this if statement with the enclosing one.(ñ•í—ıÿÿÿÿ8É©Õó„2J$db1709aa-a732-4552-86f1-ae3919e815c0
-x
-java:S1066¹"/Merge this if statement with the enclosing one.(ñ•í—ıÿÿÿÿ8Ê©Õó„2J$f2d674dc-9d73-4c5b-9590-1e4711663e0e
-	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8õÖÜó„2J$c9db5e02-543b-4568-bb55-c7f2bcc9028c
+java:S1604ß"(Make this anonymous inner class a lambda(»à·k8ÄœÊ’…2J$2f4bb341-65bc-4a9d-8b43-ca439026441d
+”	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêøÕ8ÄœÊ’…2J$a814e8dd-9991-4ea5-9136-79ee1e4a927c
+”	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·…é8ÄœÊ’…2J$f8ca5a4e-f7a9-4d21-a90a-3bcb9e8dafe9
+	java:S112«"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÎœÊ’…2J$af7464ac-d208-44d8-b52a-164a48b78938
 š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ù›ç×ıÿÿÿÿ8ã©Õó„2J$2c5ff00a-ec58-4144-99a7-5444910336da
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ù›ç×ıÿÿÿÿ8ßœÊ’…2J$0ce5e125-00f9-4d90-898e-279e95e9b346
 ‚
-java:S11611":Add the "@Override" annotation above this method signature(¨î¹üÿÿÿÿ8è©Õó„2J$0bf3d693-2d8e-4799-a0f7-bb1a64a90ec2
-s	java:S106‰"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8‹ªÕó„2J$3334457d-1b60-4bc6-9c1c-3d3cd282568b
-s	java:S106Å"+Replace this use of System.out by a logger.(©¯­úıÿÿÿÿ8¨×Üó„2J$a5ac3869-08a8-40ac-8302-177002a9df28
-n	java:S106î"+Replace this use of System.out by a logger.(³Š°8´×Üó„2J$253fc1dd-495a-46f6-8765-33e256835a8e
-s	java:S106ñ"+Replace this use of System.out by a logger.(²êÙİúÿÿÿÿ8µ×Üó„2J$57efd0fc-ebe9-46ce-9fd2-21e5433e7d9f
-n	java:S106ø"+Replace this use of System.out by a logger.(Ø¼¢ƒ8¶×Üó„2J$100a69f8-f66e-4a52-a5e0-4547afb34cea
-¢
-java:S5996”"_Remove or replace this boundary that will never match because it appears after mandatory input.(È¦ì8º×Üó„2J$904f58e4-d3a3-43d5-985c-bdfff7be2658
-n	java:S106¢"+Replace this use of System.out by a logger.(œî¸ÿ8¼×Üó„2J$e9bc1bb9-2ab7-4275-9fd0-ed168e9c94c3
-s
-java:S5869ª"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8¾×Üó„2J$1b6a3f2d-0797-4ecb-9c78-3dfb09dc7412
-s
-java:S5869ª"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8¾×Üó„2J$bfe7fbb3-4fdd-4ddb-91e6-1144582dd754
-…
-java:S6353ª"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8¿×Üó„2J$a2c8b177-5280-46fe-b3db-2cd4202b6cf6
-…
-java:S6353ª"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8À×Üó„2J$3e9e2b1b-9544-4952-9fef-b7ce9bf0dfac
+java:S11612":Add the "@Override" annotation above this method signature(¨î¹üÿÿÿÿ8åœÊ’…2J$98728edb-a10b-4178-9d78-eca5ba343ff2
+r	java:S106Z"+Replace this use of System.out by a logger.(èø«åùÿÿÿÿ8ìœÊ’…2J$1a6a460d-b9e6-434c-ab1e-770232caeb28
+Ä
+java:S1186z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÆĞÂ8îœÊ’…2J$38a28d17-51b4-4e4f-8b00-dc57f9250980
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö„˜şúÿÿÿÿ8îœÊ’…2J$a0de4c40-dfd1-49ae-9961-7311108d0cee
+Ê
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•ßçùÿÿÿÿ8îœÊ’…2J$585c4d91-b669-4fca-aecc-d846b859c662
+
+java:S4144t"]Update this method so that its implementation is not identical to "mouseClicked" on line 109.(®î’×üÿÿÿÿ8ïöØ’…2
+s	java:S106®"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8øœÊ’…2J$23f0a477-3cfe-403e-b269-12f423e60c5a
+s	java:S106ê"+Replace this use of System.out by a logger.(©¯­úıÿÿÿÿ8€Ê’…2J$68b3a48e-30d7-4aa0-b1f5-1bffccb6a787
+n	java:S106“"+Replace this use of System.out by a logger.(³Š°8ƒÊ’…2J$7bd3da87-07d8-4a37-9730-43dfb2ffbe94
+s	java:S106–"+Replace this use of System.out by a logger.(²êÙİúÿÿÿÿ8ƒÊ’…2J$5fda4bc9-9027-4549-b5f1-7d6620c78ed3
+n	java:S106"+Replace this use of System.out by a logger.(Ø¼¢ƒ8„Ê’…2J$16dd2422-79da-47be-901a-6218670a1850
+n	java:S106¸"+Replace this use of System.out by a logger.(éã‘É8‡Ê’…2J$2bb862ab-ed41-4571-9944-6e2eb340ec61
 „
-java:S1126Ë"AReplace this if-then-else statement by a single return statement.(«‡„v8Å×Üó„2J$39bada54-7b35-43c6-8055-fd558684bac2
+java:S1126¿"AReplace this if-then-else statement by a single return statement.(ù°Í.8ˆÊ’…2J$19570440-567b-418c-aed6-59e6420c37b7
+n	java:S106Å"+Replace this use of System.out by a logger.(œî¸ÿ8‰Ê’…2J$0970d278-a149-482a-9938-05fc404546b1
+s	java:S106Î"+Replace this use of System.out by a logger.(áëÔïøÿÿÿÿ8‹Ê’…2J$8dfe5683-53f9-494d-bc74-b7668dd5a929
+s
+java:S5869Í"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8‹Ê’…2J$dc197cb5-4842-44f5-beb8-f597be150d9b
+s
+java:S5869Í"*Remove duplicates in this character class.(ªÿºÊøÿÿÿÿ8‹Ê’…2J$e54dad15-cbf6-48bc-b064-43df85afcc10
+…
+java:S6353Í"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8ŒÊ’…2J$77269457-5ded-4381-83b6-33c0668d6c03
+…
+java:S6353Í"<Use concise character class syntax '\\d' instead of '[0-9]'.(ªÿºÊøÿÿÿÿ8ŒÊ’…2J$37b9ae3e-5776-446e-ac5c-46416dfdf092
+s	java:S106×"+Replace this use of System.out by a logger.(â‡´Şúÿÿÿÿ8Ê’…2J$740a3cb3-8a40-48dd-bd34-dfb1a7dbe6fd
+Š
+java:S1126İ"AReplace this if-then-else statement by a single return statement.(É‚òéÿÿÿÿÿ8Ê’…2J$ea47953d-a3c4-457d-874d-27f391cd7ab2
+n	java:S106æ"+Replace this use of System.out by a logger.(’“îî8‘Ê’…2J$69642c97-92b9-45c6-9f8d-405b9bf0c7c3
+„
+java:S1126í"AReplace this if-then-else statement by a single return statement.(«‡„v8“Ê’…2J$4d36b1d5-3404-4fa7-a730-14e3e7ebe86b

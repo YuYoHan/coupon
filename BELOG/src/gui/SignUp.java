@@ -8,6 +8,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,7 +29,6 @@ public class SignUp extends JFrame {
     private boolean emailAvailable = false;
 
     public SignUp(Index mainPage) {
-
         // 회원가입 구현할 패널 생성
         JPanel mainPanel = new JPanel();
         // 세로로 쌓이도록 설정
@@ -86,6 +87,7 @@ public class SignUp extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String id = userLoginId.getText();
+                System.out.println("아이디 체크 : " + id);
                 if (check(id)) {
                     JOptionPane.showMessageDialog(null, "사용가능한 아이디입니다.");
                     idAvailable = true;
@@ -93,11 +95,46 @@ public class SignUp extends JFrame {
                     JOptionPane.showMessageDialog(null, "아이디를 입력하세요");
                     idAvailable = false;
                 } else {
-                    JOptionPane.showMessageDialog(null, "이미 존재하는 아이디입니다.");
+                    JOptionPane.showMessageDialog(null, "사용할 수 없는 아이디입니다.");
                     idAvailable = false;
                 }
             }
         });
+        // 아이디에 포커스안가지게 막음
+        userLoginId.setFocusable(false);
+
+        // 다시 클릭하면 포커스가 가지게 설정
+        userLoginId.addMouseListener(new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                userLoginId.requestFocusInWindow();
+                userLoginId.setFocusable(true);
+
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+                userLoginId.requestFocusInWindow();
+                userLoginId.setFocusable(true);
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+
+            }
+        });
+
+
         checkIdButton.setBackground(new Color(128, 0, 128));
         checkIdButton.setForeground(Color.WHITE);
         checkIdButton.setFocusPainted(false);
@@ -272,19 +309,17 @@ public class SignUp extends JFrame {
         try {
             // DB에 해당 아이디가 있는지 조회
             UserDTO findUser = UserDAO.select(id);
+            System.out.println(findUser);
             // 영어와 숫자로만 아이디를 작성하게 정규식 설정
-            String regex = "\t^[a-zA-Z0-9]*$";
-            Pattern compile = Pattern.compile(regex);
-            Matcher matcher = compile.matcher(id);
+            String regex = "^[a-zA-Z0-9]{5,30}$";
+            Pattern pattern = Pattern.compile(regex);
+            Matcher matcher = pattern.matcher(id);
 
-            // 이메일이 없고 정규식 조건에 맞고 5~30글자만 true
-            if (findUser == null) {
-                if (matcher.matches() &&
-                        id.length() <= 5 ||
-                        id.length() >= 30) {
-                    return true;
-                }
+            // 이메일이 없고 정규식 조건에 맞고 5에서 30 글자 사이인 경우 true 반환
+            if (findUser == null && matcher.matches()) {
+                return true;
             }
+
             return false;
         } catch (Exception e) {
             System.out.println("이미 존재하는 회원인지 체크 실패 : " + e.getMessage());
@@ -296,6 +331,7 @@ public class SignUp extends JFrame {
     // 위에서 비밀번호를 생성하기위한 조건을 주기위해서 메소드 만들었다!
     private static boolean checkPw(String userpw) {
         String passwordPolicy = "^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[$@$!%*#?&])[A-Za-z[0-9]$@$!%*#?&]{8,20}$";
+        System.out.println("비밀번호 체크 : " + passwordPolicy);
         Pattern pattern_pwd = Pattern.compile(passwordPolicy);
         Matcher matcher_pwd = pattern_pwd.matcher(userpw);
         return matcher_pwd.matches();
@@ -303,18 +339,15 @@ public class SignUp extends JFrame {
 
     // 닉네임 검사
     private static boolean checkNickName(String nickName) {
-        String regex = "^[ㄱ-ㅎ가-힣]*$";
+        String regex = "^[ㄱ-ㅎ가-힣]{5,30}$";
+        System.out.println("닉네임 체크 : " + nickName);
         Pattern compile = Pattern.compile(regex);
         Matcher matcher = compile.matcher(nickName);
 
         UserDTO findNickName = UserDAO.selectByNickName(nickName);
 
-        if (findNickName == null) {
-            if (matcher.matches() &&
-                    nickName.length() <= 5 ||
-                    nickName.length() >= 30) {
-                return true;
-            }
+        if (findNickName == null && matcher.matches()) {
+            return true;
         }
         return false;
     }
@@ -322,6 +355,7 @@ public class SignUp extends JFrame {
 
     // 이메일 검사
     private static boolean checkEmail(String email) {
+        System.out.println("이메일 체크 : " + email);
         String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
         Pattern patternEmail = Pattern.compile(emailPattern);
         Matcher matcherEmail = patternEmail.matcher(email);
