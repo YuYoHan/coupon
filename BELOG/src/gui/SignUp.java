@@ -107,6 +107,8 @@ public class SignUp extends JFrame {
         userLoginId.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
+                // Java Swing 컴포넌트에서 포커스를 요청하는 메서드입니다.
+                // 이 메서드를 호출하면 해당 컴포넌트가 포커스를 얻으려 시도합니다
                 userLoginId.requestFocusInWindow();
                 userLoginId.setFocusable(true);
 

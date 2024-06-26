@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b70195e-7311-45ff-ad0a-7953ca20956b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2729339ecb3559abf49fe964341d221c397a080c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2729339ecb3559abf49fe964341d221c397a080c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4290ef9c77a65cd2d9ce3b643c98490e04fa1544" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4290ef9c77a65cd2d9ce3b643c98490e04fa1544" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93cbdd0973c9a7b59e5cef90a94300ab95fd66e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea8f0590c6244338e22a612b57b684daf8c457a1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea8f0590c6244338e22a612b57b684daf8c457a1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93cbdd0973c9a7b59e5cef90a94300ab95fd66e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/HintTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BELOG/gui/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/HintTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/HintTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +78,7 @@
       <workItem from="1719205311552" duration="8965000" />
       <workItem from="1719273098352" duration="11256000" />
       <workItem from="1719300841331" duration="2849000" />
-      <workItem from="1719367134364" duration="1137000" />
+      <workItem from="1719367134364" duration="1590000" />
     </task>
     <servers />
   </component>

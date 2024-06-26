@@ -26,3 +26,5 @@ H
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 N
 src/gui/HintPasswordField.java,3\b\3b4cbed1c7e7589871dbb5af37c828da6f261c12
+C
+src/gui/Header.java,e\4\e44513c886ead5e886f4318e42c3b7f77494cd6c
