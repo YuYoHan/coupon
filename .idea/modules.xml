@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/KOSTA.iml" filepath="$PROJECT_DIR$/KOSTA.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Jsp.iml" filepath="$PROJECT_DIR$/Jsp.iml" />
+>>>>>>> feature/FE/page/#16
     </modules>
   </component>
 </project>
