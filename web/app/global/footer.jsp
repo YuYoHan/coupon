@@ -40,15 +40,11 @@
                     <ul class="site_itemContainer">
                         <li class="siteMenu_itemBox siteMenu_web">
                             <a class="link link_medium button button_link button_medium siteMenuItem_itemLink"
-                               href="/" data-turbolinks="false">Affiliate 프로그램</a>
+                               href="https://partner.myrealtrip.com/welcome" data-turbolinks="false">파트너 홈</a>
                         </li>
                         <li class="siteMenu_itemBox siteMenu_web">
                             <a class="link link_medium button button_link button_medium siteMenuItem_itemLink"
-                               href="/about/realguide" data-turbolinks="false">리얼 파트너</a>
-                        </li>
-                        <li class="siteMenu_itemBox siteMenu_web">
-                            <a class="link link_medium button button_link button_medium siteMenuItem_itemLink"
-                               href="https://blog.myrealtrip.com" data-turbolinks="false">파트너 블로그</a>
+                               href="#" data-turbolinks="false">마케팅/제휴 문의</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +53,7 @@
                     <ul class="site_itemContainer">
                         <li class="siteMenu_itemBox siteMenu_web">
                             <a class="link link_medium button button_link button_medium siteMenuItem_itemLink"
-                               href="/help/faq" data-turbolinks="false">자주 묻는 질문</a>
+                               href="/help/faq" data-turbolinks="false">공지사항/FAQ</a>
                         </li>
                         <li class="siteMenu_itemBox siteMenu_web">
                             <a class="link link_medium button button_link button_medium siteMenuItem_itemLink"

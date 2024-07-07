@@ -33,6 +33,7 @@ userPassword.oninput = () =>{
 		btn.removeAttribute('disabled');
 	}
 }
+
 //비밀번호 체크 유효성
 const userPasswordConfirm = document.getElementById("userPasswordConfirm");
 const pwChecked = document.getElementsByClassName("pwChecked");

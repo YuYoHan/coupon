@@ -1,4 +1,4 @@
 const myinfoContainer = document.getElementsByClassName('myinfoContainer');
-const myinfo = () =>{
+const myInfo = () =>{
 	myinfoContainer[0].classList.toggle('active');
 }

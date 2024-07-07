@@ -25,5 +25,12 @@
     <orderEntry type="library" name="mybatis-3.5.9" level="project" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="jstl" level="project" />
+    <orderEntry type="library" name="jsp-api" level="project" />
+    <orderEntry type="library" name="kakao" level="application" />
+    <orderEntry type="library" name="naveridlogin_js_sdk_2.0.2" level="application" />
+    <orderEntry type="library" name="sdk" level="application" />
+    <orderEntry type="library" name="daterangepicker" level="application" />
+    <orderEntry type="library" name="moment" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
   </component>
 </module>

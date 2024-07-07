@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('Share.css');
+@import url('share.css');
 input:not([type="checkbox"]):not([type="radio"]), button, textarea, select {
     appearance: none;
 }

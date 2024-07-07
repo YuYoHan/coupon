@@ -1,5 +1,4 @@
 $(function(){
-	
 	mobiscroll.setOptions({
 		theme: 'ios',
 		themeVariant: 'light'

@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="mybatis-3.5.9">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../neddFile/mybatis-3.5.9.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../neddFile/jstl.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../neddFile/mysql-connector-java-8.0.27.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../neddFile/standard.jar!/" />

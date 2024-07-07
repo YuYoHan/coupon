@@ -1,4 +1,24 @@
 @charset "UTF-8";
+.interval_select {
+    display: inline-block;
+    margin-right: 10px;
+}
+.input_radio {
+    display: none;
+}
+.input_radio + label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.input_radio:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
 .search_area .search_are {
     position: relative;
     width: 1064px;
@@ -110,8 +130,7 @@ div.statue_box6 {
 }
 .city_selector input[type="text"] {
     float: left;
-    padding: 0;
-    padding-left: 14px;
+    padding: 0 0 0 14px;
     width: 195px;
     line-height: 48px;
     box-sizing: border-box;

@@ -35,7 +35,7 @@
 .EmailText_input.disabled:focus{
 	box-shadow: inset 0 0 0 2px #ff8000;
 }
-.EmailTextField_sucess>.EmailText_input.gr {
+.EmailTextField_success>.EmailText_input.gr {
     box-shadow: inset 0 0 0 2px #33b893;
 }
 .EmailText_input:focus {
