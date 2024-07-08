@@ -1,3 +1,4 @@
+// mainHeader.jsp에 위치함
 const swipermain = new Swiper(".swiper-container", {
     loop: false,
     slidesPerView: 4,
@@ -7,6 +8,7 @@ const swipermain = new Swiper(".swiper-container", {
         prevEl: ".main-button-prev",
     },
 });
+
 
 const bestswiper = new Swiper(".best-swiper", {
     loop: false,
@@ -18,6 +20,7 @@ const bestswiper = new Swiper(".best-swiper", {
     },
 });
 
+// mainBanner에 위치함
 const swiper2 = new Swiper(".swiper", {
     loop: false,
     slidesPerView: 1,

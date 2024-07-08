@@ -79,10 +79,10 @@
     <!-- 결제 버튼을 감싸는 부모 요소-->
     <div class="PurchaseButton-buttonWrapper">
         <!-- 버튼 역할을 하는 역할을 하는 span 요소-->
-		<span role="button" class="css-w0pi5v">
+        <span role="button" class="css-w0pi5v">
             <!-- 결제 페이지로 이동하는 링크-->
 			<a style="width: 100%;"
-               href="${cp}/pay/airPayment.pm?datefilter=${param.datefilter}&airline=${param.airline}&airnum=${param.airnum}&dep=${param.dep}&arr=${param.arr}&price=${param.price}&useremail=${loginUser.useremail}">
+               href="">
 				<button type="button" class="PurchaseButton-button css-jgs6n">
 					<span class="css-1s4v6ia">${price} 결제하기</span>
 				</button>

@@ -6,11 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/loading/reserves.css">
-    <link rel="stylesheet" href="${cp}/css/global/header.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/loading/reserves.css">
+    <link rel="stylesheet" href="../../css/global/header_sub.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
     <title>마이리얼트립 :: 숙소 예약</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
     </script>
 </c:if>
 <div style="position: relative" class="defult-com">
-    <%@include file="/app/global/header.jsp" %>
+    <%@include file="../global/header_sub.jsp" %>
 </div>
 <!-- 해더 끝 -->
 <div>
@@ -102,10 +102,6 @@
                                             <div class="InfoField-style-title">이메일 주소</div>
                                             <div class="InfoField-style-content">${loginUser.useremail}</div>
                                         </div>
-                                        <!-- <div class="InfoField-style-field">
-                                            <div class="InfoField-style-title">휴대전화 번호</div>
-                                            <div class="InfoField-style-content">010-8282-9090</div>
-                                        </div> -->
                                     </div>
                                     <div class="ReservationPersonInfo-style-option">
 										<span class="css-mkihkg">
@@ -197,12 +193,6 @@
                                             <input class="css-1e7i9br" type="email" placeholder="example@example.com" value="${loginUser.useremail}">
                                         </div>
                                     </div>
-                                    <!-- <div class="Phone-style-container">
-                                        <div class="css-1vqiqg7">
-                                            <label class="css-e89lkq">휴대전화 번호</label>
-                                            <input class="css-1e7i9br" type="tel" placeholder="01012345678" value="01082827979">
-                                        </div>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -264,17 +254,17 @@
                         </div>
                     </div>
                 </div>
-                <%@ include file="/app/loading/reserves_side.jsp" %>
+                <%@ include file="../loading/reserves_side.jsp" %>
             </div>
         </form>
     </main>
 </div>
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 </body>
-<script src="${cp}/js/myinfo.js"></script>
+<script src="../../js/myInfo.js"></script>
 
 </html>

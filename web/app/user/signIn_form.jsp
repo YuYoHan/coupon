@@ -7,16 +7,16 @@
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 로그인</title>
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/pointContainer.css">
-    <link rel="stylesheet" href="${cp}/css/index.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
-    <link rel="stylesheet" href="${cp}/css/user/signIn.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/pointContainer.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
+    <link rel="stylesheet" href="../../css/user/signIn.css">
 </head>
 <body>
 <!-- header시작 -->
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <!-- header끝 -->
 <!-- main 시작 -->
 <form role="form" action="${cp}/user/sign_inOk.us" accept-charset="UTF-8" method="post">
@@ -45,20 +45,20 @@
                 </div>
                 <div class="SignInForm_row">
                     <div class="UserKeepSession_container">
-                        <label class="Checkbox__label Checkbox__medium" for="keep_session">
-                            <input type="checkbox" id="keep_session" class="Checkbox__input Checkbox__medium" name="keep_session" value="true">
+                        <label class="Checkbox_label Checkbox_medium" for="keep_session">
+                            <input type="checkbox" id="keep_session" class="Checkbox_input Checkbox_medium" name="keep_session" value="true">
                             로그인 상태 유지
                         </label>
                         <a href="${cp}/user/pwSearch.us" class="UserPasswordSession_link">비밀번호 찾기</a>
                     </div>
                 </div>
                 <div class="SignInForm_row">
-                    <button type="submit" class="Button__button Button__primary Button__large Button__block undefind" name ="buttons"disabled>이메일 로그인</button>
+                    <button type="submit" class="Button_button Button_primary Button_large Button_block undefind" name ="buttons" disabled>이메일 로그인</button>
                 </div>
             </div>
-            <div class="SignInJoinLink__container">
-                <span class="SignJoinLink__description">아직 회원이 아니신가요?</span>
-                <a href="${cp}/user/sign_up.us" class="SignInJoinLink__link">회원가입</a>
+            <div class="SignInJoinLink_container">
+                <span class="SignJoinLink_description">아직 회원이 아니신가요?</span>
+                <a href="${cp}/user/sign_up.us" class="SignInJoinLink_link">회원가입</a>
             </div>
         </div>
     </div>
@@ -67,13 +67,13 @@
 <!-- footer 시작 -->
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 <!-- footer 끝 -->
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src = "${cp}/js/user.js"></script>
-<script src ="${cp}/js/sign_in_form.js"></script>
+<script src = "../../js/user.js"></script>
+<script src ="../../js/sign_in_form.js"></script>
 
 </html>

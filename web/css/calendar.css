@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*
+
+*/
 .calender_wrap {
     position: relative;
     left: 394px;
@@ -20,12 +23,12 @@
 }
 .calender_wrap .k1_cal_header .btn_prev {
     left: 4px;
-    background: url(https://flights.myrealtrip.com/air/imgs_ibe/mrt/btn/main/btn_cal_arrow_prev.png) no-repeat center;
+    background: url("https://flights.myrealtrip.com/air/imgs_ibe/mrt/btn/main/btn_cal_arrow_prev.png") no-repeat center;
     background-size: 32px;
 }
 .calender_wrap .k1_cal_header .btn_next {
     right: 4px;
-    background: url(/air/imgs_ibe/mrt/btn/main/btn_cal_arrow_next.png) no-repeat center;
+    background: url("https://flights.myrealtrip.com/air/imgs_ibe/mrt/btn/main/btn_cal_arrow_next.png") no-repeat center;
     background-size: 32px;
 }
 .calender_wrap .k1_cal_header a {

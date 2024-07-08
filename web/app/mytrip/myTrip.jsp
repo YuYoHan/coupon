@@ -7,12 +7,12 @@
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 내 여행</title>
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/air/airlist.css">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/global/header.css">
-    <link rel="stylesheet" href="${cp}/css/mytrip/mytrip.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/air/airlist.css">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/global/header_sub.css">
+    <link rel="stylesheet" href="../../css/mytrip/mytrip.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
 </head>
 <body>
 <c:if test="${loginUser == null}">
@@ -22,7 +22,7 @@
     </script>
 </c:if>
 <div style="position: relative" class="defult-com">
-    <%@include file="/app/global/header.jsp" %>
+    <%@include file="../global/header_sub.jsp" %>
 </div>
 <!-- 메인시작 -->
 <div id="ReservationHistoryList">
@@ -150,9 +150,9 @@
 <!-- 메인끝 -->
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 </body>
-<script src="${cp}/js/myinfo.js"></script>
+<script src="../../js/myInfo.js"></script>
 </html>

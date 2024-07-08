@@ -8,51 +8,60 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
 
 
 /* 예약정보 확인 화면 시작 */
-.Order-style-container{
+.Order-style-container {
     width: 1060px;
     margin: auto;
     padding-top: 40px;
     border-bottom: 120px solid var(--white);
 }
-.Order-style-formWrapper{
-	background-color: var(--white);
-    margin-bottom: 32px;	
+
+.Order-style-formWrapper {
+    background-color: var(--white);
+    margin-bottom: 32px;
 }
-.OrderForm-style-title{
+
+.OrderForm-style-title {
     margin: auto 0px 32px;
     font-weight: bold;
     font-size: 28px;
     letter-spacing: -0.4px;
-    line-height: 36px;	
+    line-height: 36px;
 }
-.OrderForm-style-content{
+
+.OrderForm-style-content {
     display: flex;
-    flex-direction: row;	
+    flex-direction: row;
 }
-.OrderForm-style-commonPurchaseContainer{
-    width: 680px;	
+
+.OrderForm-style-commonPurchaseContainer {
+    width: 680px;
 }
-.SectionContainer-style-container{
-    max-width: 680px;	
+
+.SectionContainer-style-container {
+    max-width: 680px;
 }
-.SectionContainerHeader-style-wrapper{
-	display: flex;
-	padding: 0px 0px 16px;
+
+.SectionContainerHeader-style-wrapper {
+    display: flex;
+    padding: 0px 0px 16px;
     -webkit-box-pack: start;
     -webkit-box-align: center;
     align-items: center;
     letter-spacing: -0.6px;
-    justify-content: flex-start;	
+    justify-content: flex-start;
 }
-.SectionContainerHeader-style-box{
-	display: flex;	
+
+.SectionContainerHeader-style-box {
+    display: flex;
 }
-.SectionContainerHeader-style-title{
-	font-size: 22px;
-	font-weight: bold;
+
+.SectionContainerHeader-style-title {
+    font-size: 22px;
+    font-weight: bold;
     letter-spacing: -0.6px;
 }
-.SectionContainer-style-divider{
+
+.SectionContainer-style-divider {
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -60,15 +69,18 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     margin: 0px;
     border-bottom: 1px solid var(--gray-400);
     padding: 0px;
-    width: auto;	
+    width: auto;
 }
-.SectionContainer-style-body{
-	padding: 32px 0px 80px;		
+
+.SectionContainer-style-body {
+    padding: 32px 0px 80px;
 }
-.ProductInfo-style-container{
-    padding: 0px;	
+
+.ProductInfo-style-container {
+    padding: 0px;
 }
-.ProductInfoSummary-style-titleWrapper{
+
+.ProductInfoSummary-style-titleWrapper {
     display: flex;
     flex-direction: row;
     -webkit-box-pack: center;
@@ -76,9 +88,10 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     font-weight: 600;
     font-size: 17px;
     line-height: 24px;
-    margin-bottom: 16px;	
+    margin-bottom: 16px;
 }
-.ProductInfoSummary-style-imageWrapper{
+
+.ProductInfoSummary-style-imageWrapper {
     width: 72px;
     height: 72px;
     display: flex;
@@ -88,22 +101,25 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     align-items: center;
     box-shadow: rgb(33 37 41 / 15%) 0px 0px 0px 1px inset;
     border-radius: 4px;
-    margin-right: 16px;	
+    margin-right: 16px;
 }
-.ProductInfoSummary-style-image{
+
+.ProductInfoSummary-style-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;	
+    border-radius: 4px;
 }
-.ProductInfoSummary-style-textWrapper{
+
+.ProductInfoSummary-style-textWrapper {
     display: flex;
     flex-direction: column;
     -webkit-box-pack: start;
     justify-content: flex-start;
-    flex: 1 1 0%;	
+    flex: 1 1 0%;
 }
-.ProductInfoSummary-style-title{
+
+.ProductInfoSummary-style-title {
     margin-bottom: 4px;
     font-weight: 600;
     font-size: 18px;
@@ -111,75 +127,86 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden;	
+    overflow: hidden;
 }
-.ProductInfoSummary-style-schedule{
-	font-weight: normal;
+
+.ProductInfoSummary-style-schedule {
+    font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: var(--gray-500);	
+    color: var(--gray-500);
 }
-.ProductInfoSummary-style-startDateTime{
-    display: block;	
+
+.ProductInfoSummary-style-startDateTime {
+    display: block;
 }
-.ProductInfoOptions-style-optionWrapper{
+
+.ProductInfoOptions-style-optionWrapper {
     display: flex;
     flex-direction: column;
     padding: 16px;
     margin-bottom: 16px;
     background-color: var(--gray-50);
-    border-radius: 4px;	
+    border-radius: 4px;
 }
-.ProductInfoOptions-style-option{
-	margin-bottom: 0px;
-	display: flex;
+
+.ProductInfoOptions-style-option {
+    margin-bottom: 0px;
+    display: flex;
     flex-direction: row;
     -webkit-box-pack: justify;
     justify-content: space-between;
     align-items: flex-start;
 }
-.ProductInfoOptions-style-optionText{
+
+.ProductInfoOptions-style-optionText {
     flex: 1 1 0%;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: -0.4px;
-    overflow: hidden;	
+    overflow: hidden;
 }
-.ProductInfoOptions-style-optionName{
-	text-overflow: ellipsis;
+
+.ProductInfoOptions-style-optionName {
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     max-width: 100%;
     display: inline-block;
-    vertical-align: bottom;	
+    vertical-align: bottom;
 }
-.ProductInfoOptions-style-optionPrice{
+
+.ProductInfoOptions-style-optionPrice {
     width: 100px;
     margin-left: 4px;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: -0.4px;
-    text-align: right;	
+    text-align: right;
 }
-.ProductInfoPrice-style-totalPriceWrapper{
+
+.ProductInfoPrice-style-totalPriceWrapper {
     display: flex;
     flex-direction: row;
     -webkit-box-pack: justify;
-    justify-content: space-between;	
+    justify-content: space-between;
 }
-.ProductInfoPrice-style-totalPriceText{
+
+.ProductInfoPrice-style-totalPriceText {
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;	
+    line-height: 24px;
 }
-.ProductInfoPrice-style-totalPriceNumber{
+
+.ProductInfoPrice-style-totalPriceNumber {
     font-weight: bold;
     font-size: 17px;
-    line-height: 24px;	
+    line-height: 24px;
 }
-.ProductInfo-style-divider{
+
+.ProductInfo-style-divider {
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -188,19 +215,22 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     margin: 32px 0px;
     width: auto;
 }
-.CouponApplication-style-container{
-    padding: 0px;	
+
+.CouponApplication-style-container {
+    padding: 0px;
 }
-.CouponApplication-style-title{
+
+.CouponApplication-style-title {
     font-size: 17px;
     letter-spacing: -0.6px;
     color: var(--gray-800);
     font-weight: bold;
     margin-bottom: 12px;
-    line-height: 24px;	
+    line-height: 24px;
 }
-.couponDropdown{
-	display: inline-block;
+
+.couponDropdown {
+    display: inline-block;
     position: relative;
     min-width: 238px;
     border-radius: 4px;
@@ -211,63 +241,74 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     cursor: pointer;
     height: 40px;
     font-size: 14px;
-    padding: 12px;	
+    padding: 12px;
     width: 380px;
 }
-.css-191gl3z{
+
+.css-191gl3z {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    line-height: 1;	
+    line-height: 1;
 }
-.CouponApplication-style-hasCouponInfoContainer{
+
+.CouponApplication-style-hasCouponInfoContainer {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
     font-size: 14px;
     letter-spacing: -0.2px;
-    font-weight: 500;	
+    font-weight: 500;
 }
-.available-coupon-label{
-    color: var(--gray-700);	
+
+.available-coupon-label {
+    color: var(--gray-700);
 }
-.coupon-count{
-    color: var(--gray-500);	
+
+.coupon-count {
+    color: var(--gray-500);
 }
-.Point-style-pointWrapper{
-    padding: 0px;	
+
+.Point-style-pointWrapper {
+    padding: 0px;
 }
-.Point-style-labelWrapper{
-	font-weight: bold;
+
+.Point-style-labelWrapper {
+    font-weight: bold;
     font-size: 17px;
     line-height: 24px;
-    margin-bottom: 12px;	
+    margin-bottom: 12px;
 }
-.Point-style-label{
-    color: var(--gray-800);	
+
+.Point-style-label {
+    color: var(--gray-800);
 }
-.Point-style-holdingPoint{
+
+.Point-style-holdingPoint {
     color: var(--gray-500);
-    margin-left: 8px;	
+    margin-left: 8px;
 }
-.Point-style-inputWrapper{
-	display: flex;
-	-webkit-box-pack: start;
-    justify-content: flex-start;	
+
+.Point-style-inputWrapper {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
 }
-.checkout-point-inputbox{
+
+.checkout-point-inputbox {
     display: inline-block;
     position: relative;
     margin-right: 8px;
-    width: auto;	
+    width: auto;
 }
-.css-o9jzai{
+
+.css-o9jzai {
     width: 380px;
-	box-shadow: inset 0 0 0 1px var(--gray-100);
+    box-shadow: inset 0 0 0 1px var(--gray-100);
     background-color: var(--gray-50);
     color: var(--gray-400);
     display: flex;
@@ -283,24 +324,27 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     padding: 11px 36px 11px 11px;
     text-align: right;
 }
-.css-1fwrkpi{
-	position: absolute;
+
+.css-1fwrkpi {
+    position: absolute;
     top: 52%;
     right: 14px;
     transform: translateY(-50%);
     color: rgb(132, 140, 148);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;	
+    line-height: 1;
 }
-.checkout-point-button{
+
+.checkout-point-button {
     position: relative;
     display: contents;
 }
-.css-1fq9c2a{
-	opacity: 0.3;
-	background-color: var(--gray-100);
-	display: flex;
+
+.css-1fq9c2a {
+    opacity: 0.3;
+    background-color: var(--gray-100);
+    display: flex;
     flex: 0 0 auto;
     flex-direction: row;
     -webkit-box-pack: center;
@@ -321,54 +365,64 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     font-size: 14px;
     color: var(--gray-700);
 }
-.css-1s4v6ia{
-	line-height: 14px;
-	display: flex;
+
+.css-1s4v6ia {
+    line-height: 14px;
+    display: flex;
     flex-direction: row;
     -webkit-box-align: center;
-    align-items: center;	
+    align-items: center;
 }
-.ReservationPersonInfo-style-container{
-    padding: 0px;	
+
+.ReservationPersonInfo-style-container {
+    padding: 0px;
 }
-.ReservationPersonInfo-style-wrapper{
-	display: flex;
+
+.ReservationPersonInfo-style-wrapper {
+    display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
-    align-items: center;	
+    align-items: center;
 }
-.ReservationPersonInfo-style-summary{
-	display: flex;
+
+.ReservationPersonInfo-style-summary {
+    display: flex;
     flex-direction: column;
-    margin-right: 16px;	
+    margin-right: 16px;
 }
-.InfoField-style-field{
+
+.InfoField-style-field {
     display: flex;
     flex-direction: row;
-    margin-bottom: 8px;	
+    margin-bottom: 8px;
 }
-.InfoField-style-title{
-	width: 100px;
+
+.InfoField-style-title {
+    width: 100px;
     font-size: 14px;
     font-weight: normal;
     color: var(--gray-500);
-    margin-right: 4px;	
+    margin-right: 4px;
 }
-.InfoField-style-content{
+
+.InfoField-style-content {
     flex: 1 1 0%;
     font-size: 14px;
-    font-weight: normal;	
+    font-weight: normal;
 }
-.ReservationPersonInfo-style-option{
-    flex: 0 0 auto;	
+
+.ReservationPersonInfo-style-option {
+    flex: 0 0 auto;
 }
-.css-mkihkg{
+
+.css-mkihkg {
     position: relative;
-    display: inline-flex;	
+    display: inline-flex;
 }
-.css-1fq9c2a{
-	display: flex;
+
+.css-1fq9c2a {
+    display: flex;
     flex: 0 0 auto;
     flex-direction: row;
     -webkit-box-pack: center;
@@ -388,49 +442,57 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     padding: 0px 16px;
     font-size: 14px;
     color: var(--gray-700);
-    background-color: var(--gray-100);	
+    background-color: var(--gray-100);
 }
-.css-1s4v6ia{
+
+.css-1s4v6ia {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
-    align-items: center;	
+    align-items: center;
 }
-.ReservationPersonInfo-style-divider{
+
+.ReservationPersonInfo-style-divider {
     width: 100%;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
     border-image: initial;
     border-bottom: 1px solid var(--gray-80);
-    margin: 32px 0px;	
+    margin: 32px 0px;
 }
-.CompanionSelect-style-container{
-	display: flex;
-    flex-direction: column;	
+
+.CompanionSelect-style-container {
+    display: flex;
+    flex-direction: column;
 }
-.CompanionSelect-style-title{
+
+.CompanionSelect-style-title {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 4px;	
+    margin-bottom: 4px;
 }
-.CompanionSelect-style-subtitle{
-	font-size: 14px;
+
+.CompanionSelect-style-subtitle {
+    font-size: 14px;
     font-weight: normal;
     color: var(--gray-500);
-    margin-bottom: 16px;	
+    margin-bottom: 16px;
 }
-.css-5suex{
+
+.css-5suex {
     display: inline-flex;
     flex-wrap: wrap;
-    margin-top: -8px;	
+    margin-top: -8px;
 }
-.mrt-chip-item{
+
+.mrt-chip-item {
     margin-top: 8px;
-    margin-right: 6px;	
+    margin-right: 6px;
 }
-.mrt-chip-item-wrapper{
-	height: 40px;
+
+.mrt-chip-item-wrapper {
+    height: 40px;
     border-radius: 40px;
     padding: 0px 12px;
     display: flex;
@@ -444,40 +506,47 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     background-color: var(--gray-60);
     cursor: pointer;
     user-select: none;
-    white-space: nowrap;	
+    white-space: nowrap;
 }
-.mrt-chip-item-content{
+
+.mrt-chip-item-content {
     font-size: 14px;
     padding-left: 2px;
     letter-spacing: -0.4px;
 }
-.AdditionalInfoForm-style-container{
-	padding: 0px;	
+
+.AdditionalInfoForm-style-container {
+    padding: 0px;
 }
-.AdditionalInfoForm-style-wrapper{
-    margin-top: 0px;	
+
+.AdditionalInfoForm-style-wrapper {
+    margin-top: 0px;
 }
-.AdditionalInfoFormTitle-style-wrapper{
-	display: flex;
+
+.AdditionalInfoFormTitle-style-wrapper {
+    display: flex;
     flex-direction: row;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: start;
-    align-items: start;	
+    align-items: start;
 }
-.AdditionalInfoFormTitle-style-title{
+
+.AdditionalInfoFormTitle-style-title {
     font-size: 18px;
     font-weight: bold;
-    line-height: 24px;	
+    line-height: 24px;
 }
-.AdditionalInfoFormTitle-style-helperText{
-	margin-top: 4px;
+
+.AdditionalInfoFormTitle-style-helperText {
+    margin-top: 4px;
     color: var(--gray-500);
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: -0.4px;	
+    letter-spacing: -0.4px;
 }
-.AdditionalInfoFormTitle-style-checkbox{
+
+.AdditionalInfoFormTitle-style-checkbox {
     flex: 0 0 auto;
     margin-left: 8px;
     display: flex;
@@ -485,16 +554,18 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     -webkit-box-pack: end;
     justify-content: flex-end;
     -webkit-box-align: center;
-    align-items: center;	
+    align-items: center;
 }
-.css-1f7apd6{
-	position: relative;
+
+.css-1f7apd6 {
+    position: relative;
     display: flex;
     -webkit-box-align: center;
-    align-items: center;	
+    align-items: center;
 }
-.css-paqlg9{
-	display: flex;
+
+.css-paqlg9 {
+    display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
@@ -503,12 +574,13 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     box-shadow: 0 0 0 1px var(--gray-300);
     background-color: var(--white);
     position: relative;
-    transition: background 0.25s var(--motion-easing-basic),box-shadow 0.25s var(--motion-easing-basic);
+    transition: background 0.25s var(--motion-easing-basic), box-shadow 0.25s var(--motion-easing-basic);
     width: 18px;
     height: 18px;
 }
-.css-v5mf5a{
-	display: block;
+
+.css-v5mf5a {
+    display: block;
     position: absolute;
     inset: 0px;
     width: 100%;
@@ -517,33 +589,38 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     opacity: 0;
     padding: 0px;
     margin: 0px;
-    cursor: pointer;	
+    cursor: pointer;
 }
-.css-an51kc{
-	flex: 1 1 auto;
+
+.css-an51kc {
+    flex: 1 1 auto;
     font-size: 14px;
     margin: 0;
     line-height: 18px;
-    padding-left: 10px;	
+    padding-left: 10px;
 }
-.Name-style-container{
-	margin-top: 24px;	
+
+.Name-style-container {
+    margin-top: 24px;
 }
-.css-1vqiqg7{
-	display: inline-block;
-    position: relative;	
+
+.css-1vqiqg7 {
+    display: inline-block;
+    position: relative;
 }
-.css-e89lkq{
-	display: inline-block;
+
+.css-e89lkq {
+    display: inline-block;
     font-size: 14px;
     font-weight: 500;
     color: var(--gray-700);
     letter-spacing: -0.2px;
-    margin-bottom: 8px;	
+    margin-bottom: 8px;
 }
-.css-1e7i9br{
-	width: 250px;
-	display: flex;
+
+.css-1e7i9br {
+    width: 250px;
+    display: flex;
     -webkit-box-align: center;
     align-items: center;
     box-shadow: inset 0 0 0 1px var(--gray-300);
@@ -555,24 +632,28 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     letter-spacing: -0.2px;
     height: 40px;
     font-size: 14px;
-    padding: 11px;	
+    padding: 11px;
 }
-.Email-style-container,.Phone-style-container{
-	margin-top: 32px;	
+
+.Email-style-container, .Phone-style-container {
+    margin-top: 32px;
 }
-.PaymentMethods-style-paymentRadiosWrapper{
-	flex-direction: column;
+
+.PaymentMethods-style-paymentRadiosWrapper {
+    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 }
-.PaymentMethodRadioButton-style-buttonWrapper{
-	-webkit-box-pack: start;
+
+.PaymentMethodRadioButton-style-buttonWrapper {
+    -webkit-box-pack: start;
     justify-content: flex-start;
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.PaymentMethodRadioButton-style-badge{
-	border-radius: 4px;
+
+.PaymentMethodRadioButton-style-badge {
+    border-radius: 4px;
     font-weight: bold;
     padding: 2px 6px;
     font-size: 12px;
@@ -586,10 +667,11 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
-    overflow: hidden;	
+    overflow: hidden;
 }
-.css-1cweiyo{
-	flex: 0 0 auto;
+
+.css-1cweiyo {
+    flex: 0 0 auto;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -598,10 +680,10 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     -webkit-box-pack: center;
 }
 
-.css-1u9dzhu{
-	width: 24px;
+.css-1u9dzhu {
+    width: 24px;
     height: 24px;
-	position: relative;
+    position: relative;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
@@ -611,7 +693,8 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     border: 2px solid var(--gray-300);
     border-radius: 50%;
 }
-.css-8djd7q{
+
+.css-8djd7q {
     width: 24px;
     height: 24px;
     display: block;
@@ -622,38 +705,37 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    cursor: pointer;	
+    cursor: pointer;
 }
-.css-1jvr7pu{
-	display: flex;
+
+.css-1jvr7pu {
+    display: flex;
     white-space: nowrap;
-	font-size: 16px;
+    font-size: 16px;
     margin-left: 12px;
-	cursor: pointer;
+    cursor: pointer;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
-    color: var(--gray-800);	
+    color: var(--gray-800);
 }
-.css-1jvr7pu > img{
-	height: 16px;
-    margin-left: 8px;	
+
+.css-1jvr7pu > img {
+    height: 16px;
+    margin-left: 8px;
 }
-.css-mlq5g6{
-	width: 12px;
+
+.css-mlq5g6 {
+    width: 12px;
     height: 12px;
-	border-radius: 50%;
-    background-color: var(--blue-500);	
+    border-radius: 50%;
+    background-color: var(--blue-500);
 }
-
-
-
-
 
 
 /* 우측 사이드 예약화면 시작 */
-.FloatContainer-container{
-	display: flex;
+.FloatContainer-container {
+    display: flex;
     flex-direction: column;
     align-self: flex-start;
     position: sticky;
@@ -668,6 +750,7 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     background-color: var(--white);
     border: 1px solid var(--gray-200);
 }
+
 .SectionContainerHeader-wrapper {
     display: flex;
     -webkit-box-pack: justify;
@@ -677,14 +760,17 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     padding: 20px 16px;
     letter-spacing: -0.6px;
 }
+
 .SectionContainerHeader-box {
     display: flex;
 }
+
 .SectionContainerHeader-title {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: -0.6px;
 }
+
 .SectionContainer-divider {
     border-top: 0px;
     border-right: 0px;
@@ -695,9 +781,11 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     padding: 0px;
     width: auto;
 }
+
 .SectionContainerBody-sibedar {
     padding: 24px 0px 0px;
 }
+
 .PaymentInfo-priceInfo {
     display: flex;
     flex-direction: column;
@@ -707,12 +795,15 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     align-items: center;
     padding: 0px 16px 20px;
 }
+
 .PaymentInfo-orderPrice > div:last-of-type {
     margin-bottom: 0px;
 }
+
 .PaymentInfo-orderPrice > div {
     margin-bottom: 8px;
 }
+
 .PaymentInfo-orderPrice {
     display: flex;
     flex-direction: row;
@@ -720,9 +811,11 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     justify-content: space-between;
     width: 100%;
 }
+
 .PaymentInfo-orderPriceText {
     font-size: 14px;
 }
+
 .PaymentInfo-totalPriceWrapper {
     display: flex;
     flex-direction: row;
@@ -734,34 +827,41 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     background-color: var(--blue-50);
     margin-bottom: -32px;
 }
+
 .PaymentInfo-totalPriceText {
     font-weight: bold;
     font-size: 18px;
     line-height: 1;
     color: var(--blue-500);
 }
+
 .PaymentInfo-totalPrice {
     font-weight: bold;
     font-size: 24px;
     color: var(--blue-500);
 }
+
 .PolicyFormWrapper-container {
     padding: 32px 16px;
 }
+
 .AllTerms-termContainer {
     padding: 20px 5px 20px 5px;
     border: 1px solid var(--gray-200);
     border-radius: 4px;
 }
+
 .AllTerms-termContainer .required-term {
     display: flex;
     flex-direction: row;
     -webkit-box-pack: justify;
     justify-content: space-between;
 }
+
 .AllTerms-termContainer > div {
     margin-bottom: 20px;
 }
+
 .term-defaultCheckTerm {
     font-size: 14px;
     font-weight: normal;
@@ -769,11 +869,13 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     letter-spacing: -0.3px;
     cursor: pointer;
 }
+
 .css-xqn2lt {
     display: inline-block;
     border: 0px;
     cursor: pointer;
 }
+
 .Allterms-defaultCheckAllTerm {
     display: block;
     margin-top: 12px;
@@ -782,6 +884,7 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     color: var(--gray-500);
     letter-spacing: -0.3px;
 }
+
 .PolicyForm-notice {
     display: flex;
     flex-direction: row;
@@ -792,13 +895,16 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     background-color: var(--gray-50);
     border: none;
 }
+
 .css-1fc8vz0 {
     margin-right: 8px;
 }
+
 .css-1iyoj2o {
     display: flex;
     flex-direction: column;
 }
+
 .css-5sumbj {
     font-size: 16px;
     font-weight: bold;
@@ -806,28 +912,34 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     color: var(--gray-800);
     margin-bottom: 4px;
 }
+
 .PolicyForm-notice > div > div:last-of-type {
     font-size: 14px;
     line-height: 22px;
 }
+
 .css-1kx9bws {
     font-size: 15px;
     letter-spacing: -0.4px;
     color: var(--gray-700);
     white-space: pre-wrap;
 }
+
 .PurchaseButton-buttonWrapper {
     margin: 0px 16px;
 }
+
 .css-w0pi5v {
     position: relative;
     display: inline-flex;
     width: 100%;
 }
+
 .css-w0pi5v > button {
     width: 100%;
     padding: 0px 8px;
 }
+
 .css-jgs6n {
     display: flex;
     flex: 0 0 auto;
@@ -852,6 +964,7 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
     background-color: var(--blue-400);
     width: 100%;
 }
+
 .css-1s4v6ia {
     display: flex;
     flex-direction: row;

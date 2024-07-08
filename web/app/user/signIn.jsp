@@ -6,16 +6,16 @@
 <head>
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 로그인</title>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/pointContainer.css">
-    <link rel="stylesheet" href="${cp}/css/index.css">
-    <link rel="stylesheet" href="${cp}/css/user/sign.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/pointContainer.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/user/sign.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
 </head>
 <body>
 <!-- header시작 -->
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <!-- header끝 -->
 <!-- 회원가입 시작 -->
 <div class="signup_container">
@@ -27,7 +27,7 @@
             <div class="kakaoOauthBtn_wrapper">
                 <button type="button" class="kakao_button">
                     <div class="button_container" onclick="kakaoLogin();">
-                        <img class="kakao_img" src="${cp}/app/img/kakao_log.svg" alt="kakao">
+                        <img class="kakao_img" src="../img/kakao_log.svg" alt="kakao">
                         <span>카카오로 계속하기</span>
                     </div>
                 </button>
@@ -35,22 +35,22 @@
             <div class="oauthList_container">
                 <div class="oauth_container">
                     <div class="icon-wrapper">
-                        <img class="iconImg" src="${cp}/app/img/facebook_log.svg" alt="페이스북">
-                        <img class="iconImgHover" src="${cp}/app/img/facebook_log_on.svg" alt="페이스북">
+                        <img class="iconImg" src="../img/facebook_log.svg" alt="페이스북">
+                        <img class="iconImgHover" src="../img/facebook_log_on.svg" alt="페이스북">
                         <input type="hidden" value="페이스북">
                         <span>페이스북</span>
                     </div>
                     <span class="oauthList_line"></span>
                     <div class="icon-wrapper">
-                        <img class="iconImg" src="${cp}/app/img/naver_log.svg" alt="네이버">
-                        <img class="iconImgHover" src="${cp}/app/img/naver_log_on.svg" alt="네이버">
+                        <img class="iconImg" src="../img/naver_log.svg" alt="네이버">
+                        <img class="iconImgHover" src="../img/naver_log_on.svg" alt="네이버">
                         <input type="hidden" value="네이버">
                         <span>네이버</span>
                     </div>
                     <span class="oauthList_line"></span>
                     <div class="icon-wrapper">
-                        <img class="iconImg" src="${cp}/app/img/email_log.svg" alt="이메일">
-                        <img class="iconImgHover" src="${cp}/app/img/email_log_on.svg" alt="이메일">
+                        <img class="iconImg" src="../img/email_log.svg" alt="이메일">
+                        <img class="iconImgHover" src="../img/email_log_on.svg" alt="이메일">
                         <input type="hidden" value="이메일 로그인">
                         <span>이메일</span>
                     </div>
@@ -68,7 +68,7 @@
 <!-- footer 시작 -->
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 <!-- footer 끝 -->
@@ -79,10 +79,10 @@
 <script src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js"></script>
 <!-- 페이스북 SDK 추가 -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-<script src="${cp}/js/chatbot.js"></script>
-<script src="${cp}/js/designForInput.js"></script>
-<script src="${cp}/js/loginEffect.js"></script>
-<script src="${cp}/js/myInfo.js"></script>
+<script src="../../js/chatbot.js"></script>
+<script src="../../js/designForInput.js"></script>
+<script src="../../js/loginEffect.js"></script>
+<script src="../../js/myInfo.js"></script>
 <script>
     Kakao.init('edfb9bf86c6edc300b3431b379972fda'); //발급받은 키 중 javascript키를 사용해준다.
     function kakaoLogin() {

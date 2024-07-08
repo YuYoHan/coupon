@@ -1,11 +1,10 @@
-<%@page import="java.util.Map"%>
-<%@page import="java.util.List"%>
-<%@page import="app.air.dao.AirDAO"%>
+<%--<%@page import="java.util.Map"%>--%>
+<%--<%@page import="java.util.List"%>--%>
+<%--<%@page import="app.air.dao.AirDAO"%>--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-<link rel="stylesheet" href="${cp}/css/air/airBanner.css">
+<link rel="stylesheet" href="../../css/air/airBanner.css">
 
 <!-- 전체 배너 슬라이드 섹션을 포함하는 div.-->
 <div class="recent_slide promo">

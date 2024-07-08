@@ -1,7 +1,7 @@
 
-<%@page import="java.util.Map"%>
-<%@page import="java.util.List"%>
-<%@page import="app.card.dao.CardDAO"%>
+<%--<%@page import="java.util.Map"%>--%>
+<%--<%@page import="java.util.List"%>--%>
+<%--<%@page import="app.card.dao.CardDAO"%>--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -22,10 +22,10 @@
                 <div class="mainbanner-pagination"></div>
                 <!-- 버튼을 만들려면 아래와 같이 클래스 명을 입력 -->
                 <button class="mainbanner-button-prev mainBannerBtn">
-                    <img src="${cp}/app/img/white_arrow_prev.svg" alt="arrow">
+                    <img src="../../app/img/white_arrow_prev.svg" alt="arrow">
                 </button>
                 <button class="mainbanner-button-next mainBannerBtn">
-                    <img src="${cp}/app/img/white_arrow_next.svg" alt="arrow">
+                    <img src="../../app/img/white_arrow_next.svg" alt="arrow">
                 </button>
             </div>
         </div>
