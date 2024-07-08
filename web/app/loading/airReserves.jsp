@@ -8,11 +8,11 @@
 <head>
     <meta charset="UTF-8">
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/loading/reserves.css">
-    <link rel="stylesheet" href="${cp}/css/global/header.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/loading/reserves.css">
+    <link rel="stylesheet" href="../../css/global/header_sub.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
     <title>마이리얼트립 :: 항공권 예약</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
     </script>
 </c:if>
 <div style="position: relative" class="defult-com">
-    <%@include file="/app/global/header.jsp" %>
+    <%@include file="../global/header_sub.jsp" %>
 </div>
 <!-- 해더 끝 -->
 <div>
@@ -274,7 +274,7 @@
 										</span>
                                         <label class="css-1jvr7pu" for="PAYCO">
                                             페이코
-                                            <img src="${cp}/app/img/payco.svg">
+                                            <img src="../img/payco.svg">
                                         </label>
                                     </div>
                                 </div>
@@ -282,14 +282,14 @@
                         </div>
                     </div>
                 </div>
-                <%@ include file="/app/loading/airReserves_side.jsp" %>
+                <%@ include file="../loading/airReserves_side.jsp" %>
             </div>
         </form>
     </main>
 </div>
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 </body>

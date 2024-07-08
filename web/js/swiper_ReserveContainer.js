@@ -1,3 +1,4 @@
+// airBanner.jsp에 위치함
 const swiper3 = new Swiper(".swiper", {
 	  loop: true,
 	  slidesPerView: 2,

@@ -1,4 +1,4 @@
-package config;
+package config.action;
 
 public class ActionTo {
 	private String path;

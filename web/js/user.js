@@ -46,37 +46,6 @@ function sample6_execDaumPostcode() {
     }).open();
 }
 
-function checkId() {
-    const userid = document.joinForm.userid;
-    if (userid.value.length < 5 || userid.value.length > 12) {
-        alert("아이디는 5자 이상 12자 이하로 입력해주세요!");
-        userid.focus();
-        return false;
-    }
-    const result = document.getElementById("result");
-    const xhr = new XMLHttpRequest();
-
-    xhr.open("GET", cp + "/user/CheckIdOk.us?userid=" + userid.value, true);
-    // 서버에서 응답이 도착하면 특정한 자바스크립트 함수를 호출
-    xhr.onreadystatechange = function () {
-        // readyState == 4란 의미는 데이터를 전부 받은 상태, 완료된 상태를 의미한다.
-        if (xhr.readyState == 4) {
-            // status == 200은 서버로 부터 응답상태가 요청에 성공하였다는 의미다.
-            if (xhr.status == 200) {
-                // 문자열로 응답 데이터를 얻음
-                let txt = xhr.responseText;
-                txt = txt.trim();
-
-                if (txt == "O") {
-                    result.innerHTML = "사용할 수 있는 아이디입니다!";
-                } else {
-                    result.innerHTML = "이미 존재하는 아이디입니다!";
-                }
-            }
-        }
-    }
-    xhr.send();
-}
 
 // 회원가입 유효성 검사
 function join() {

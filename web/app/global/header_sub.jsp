@@ -7,7 +7,7 @@
     <nav class="GNB-Container">
         <div class="GNB-Logo">
             <button type="button" class="GNB-Button">
-                <a href="${cp}/index.jsp">
+                <a href="../../index.jsp">
                     <img class="GNB-Logoimg" src="https://dffoxz5he03rp.cloudfront.net/icons/logo_mrt_web.svg">
                 </a>
             </button>
@@ -50,7 +50,7 @@
         <nav class="localNavBar">
             <div class="lnbWrapper">
                 <div class="localItemWithIcon">
-                    <a href="${cp}/index.jsp">
+                    <a href="../../index.jsp">
                         <span>홈</span>
                     </a>
                 </div>

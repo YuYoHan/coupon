@@ -6,17 +6,17 @@
     <!-- 이메일 회원가입을 클릭하면 이곳으로 와진다.-->
     <title>마이리얼트립 :: 회원가입</title>
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/pointContainer.css">
-    <link rel="stylesheet" href="${cp}/css/index.css">
-    <link rel="stylesheet" href="${cp}/css/user/sign.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
-    <link rel="stylesheet" href="${cp}/css/user/signUp.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/pointContainer.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/user/sign.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
+    <link rel="stylesheet" href="../../css/user/signUp.css">
 </head>
 <body>
 <!-- header 시작-->
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <!-- main 시작-->
 <div class="EmailSignUp-component">
     <div class="EmailSignUp_container">
@@ -220,13 +220,13 @@
 <!-- footer 시작 -->
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 <!-- footer 끝 -->
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="${cp}/js/sign_up_form.js"></script>
-<script src="${cp}/js/user.js"></script>
-<script src="${cp}/js/myInfo.js"></script>
+<script src="../../js/sign_up_form.js"></script>
+<script src="../../js/user.js"></script>
+<script src="../../js/myInfo.js"></script>
 </html>

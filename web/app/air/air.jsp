@@ -7,9 +7,8 @@
     <!-- 항공권 예약에서 날짜 정하고 인원수 정하는 칸-->
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 항공권</title>
-    <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/air/air.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../../css/air/air.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
     <!--
         Moment.js는 JavaScript 날짜 라이브러리로, 날짜와 시간을 파싱, 검증, 조작, 포맷하는 기능을 제공합니다.
@@ -25,6 +24,7 @@
         Daterangepicker를 사용할 때 필요한 기본 스타일을 제공하여 일관된 UI를 유지할 수 있도록 합니다.-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
 </head>
+<link rel="stylesheet" type="text/css" href="../../css/calendar.css" />
 <body>
 <div class="search_are">
     <div id="div_notice" class="statue_box6" style="display:none;"></div>
@@ -32,7 +32,7 @@
         <ul class="section_1">
             <li class="interval_select">
                 <input type="radio" id="initFormCode" name="initform"
-                       onclick="airfn_clickinitFormCode_0100100010('RT', 'int');" checked="checked"
+                       onclick="'#'" checked="checked"
                        value="RT" class="input_radio">
                 <label for="initFormCode">왕복</label>
             </li>
@@ -110,8 +110,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </li>
                     </ul>
                 </fieldset>
@@ -120,9 +118,11 @@
     </div>
 </div>
 </body>
+
 <script>
     // 날짜 범위 선택 기능
     $(function () {
+        // 날짜 범위 선택기를 활성화
         // daterangepicker() 함수는 날짜 범위 선택을 가능하게 하는 라이브러리를 초기화
         // 사용자가 날짜를 선택하면 선택한 날짜 범위가 해당 입력 상자에 표시됩니다.
         $('input[name="datefilter"]').daterangepicker({
@@ -139,7 +139,6 @@
         $('input[name="datefilter"]').on('cancel.daterangepicker', function (ev, picker) {
             $(this).val('');
         });
-
     });
 
     // 인원 수 조절 기능
@@ -181,23 +180,24 @@
             });
             $(".count-total").text(total);
             $(".count-total-input").val(total);
-        };
+        }
     }
 
     countBtn();
 
     const seat_wrap = document.getElementsByClassName("seat_wrap")[0];
     const Nop_wrap = document.getElementsByClassName("Nop_wrap")[0];
+
     seat_wrap.addEventListener('click', () => {
+        // hidden' 클래스가 이미 존재하면 제거하고, 없으면 추가
+        // 이를 통해 클릭할 때마다 Nop_wrap 요소가 보이거나 숨겨지는 토글 기능을 구현
         Nop_wrap.classList.toggle('hidden');
     })
 
     function ok_frm() {
         document.getElementById("frm").submit();
     }
-
-
 </script>
-<script src="${cp}/js/myInfo.js"></script>
+<script src="../../js/myInfo.js"></script>
 
 </html>

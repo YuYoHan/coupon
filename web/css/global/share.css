@@ -67,10 +67,10 @@
     --elevation-z3: 0 8px 16px 0 rgba(33, 37, 41, 0.15);
     --elevation-z4: 0 12px 24px 0 rgba(33, 37, 41, 0.15);
     --elevation-z0-border: 0 0 0 1px var(--gray-100);
-    --elevation-z1-border: 0 2px 4px 0 rgba(0, 0, 0, 0.1),0 0 0 1px var(--gray-100);
-    --elevation-z2-border: 0 4px 8px 0 rgba(33, 37, 41, 0.1),0 0 0 1px var(--gray-100);
-    --elevation-z3-border: 0 8px 16px 0 rgba(33, 37, 41, 0.15),0 0 0 1px var(--gray-100);
-    --elevation-z4-border: 0 12px 24px 0 rgba(33, 37, 41, 0.15),0 0 0 1px var(--gray-100);
+    --elevation-z1-border: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px var(--gray-100);
+    --elevation-z2-border: 0 4px 8px 0 rgba(33, 37, 41, 0.1), 0 0 0 1px var(--gray-100);
+    --elevation-z3-border: 0 8px 16px 0 rgba(33, 37, 41, 0.15), 0 0 0 1px var(--gray-100);
+    --elevation-z4-border: 0 12px 24px 0 rgba(33, 37, 41, 0.15), 0 0 0 1px var(--gray-100);
     --motion-easing-basic: cubic-bezier(0.4, 0, 0.2, 1);
     --motion-easing-linear-out: cubic-bezier(0, 0, 0.2, 1);
     --motion-easing-linear-in: cubic-bezier(0.4, 0, 1, 1);

@@ -7,21 +7,22 @@
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 국내숙소</title>
     <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /></head>
-<link rel="stylesheet" href="${cp}/css/global/common.css">
-<link rel="stylesheet" href="${cp}/css/hotel/hotel.css">
-<link rel="stylesheet" href="${cp}/css/global/footer.css">
-<link rel="stylesheet" href="${cp}/css/global/header.css">
+<link rel="stylesheet" href="../../css/global/common.css">
+<link rel="stylesheet" href="../../css/hotel/hotel.css">
+<link rel="stylesheet" href="../../css/index.css">
+<link rel="stylesheet" href="../../css/global/footer.css">
+<link rel="stylesheet" href="../../css/global/header_sub.css">
+<link rel="stylesheet" href="../../css/calendar.css">
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 </head>
 <body>
-
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <div class="home-style-container">
     <div class="bgimg">
         <div class="home-style-headerBackground"></div>
@@ -57,7 +58,7 @@
                     </div>
                     <div class="date_selector clearfix border_all ml8" id="div_day_selector" role="combobox" style="cursor: pointer;">
                         <input id="txt_depDt" class="input_text" type="hidden" title="가는날 선택" placeholder="가는날 선택" readonly="readonly" value="">
-                        <input id="txt_depDt_view" class="input_text" type="text" title="가는날 선택" placeholder="입실 날짜 선택  - 퇴실 날짜 선택" readonly="readonly" name="datefilter" role="calendarPopInput" style="cursor: pointer;" value="">
+                        <input id="txt_depDt_view" class="input_text" type="text" title="가는날 선택" placeholder="입실 날짜 선택  - 퇴실 날짜 선택" readonly="readonly" name="datefilter" role="combobox" style="cursor: pointer;" value="">
                         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMEgxNlYxNkgweiIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzQ5NTA1NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik02IDRMMTAgOC4wMDIgNi4wMDUgMTIiIHRyYW5zZm9ybT0icm90YXRlKDkwIDggOCkiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
                     </div>
                     <div class="TravelerForm-style-container">
@@ -111,13 +112,13 @@
   				</span>
                 </div>
             </div>
-            <%@ include file="/app/hotel/hotel_swiper.jsp" %>
+            <%@ include file="../../app/hotel/hotel_swiper.jsp" %>
         </form>
     </section>
 </div>
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../../app/global/footer.jsp" %>
     </footer>
 </div>
 </body>
@@ -190,8 +191,8 @@
         document.getElementById('frm').submit();
     }
 </script>
-<script src="${cp}/js/swiper_hotel.js"></script>
-<script src="${cp}/js/designForInput.js"></script>
-<script src="${cp}/js/chatbot.js"></script>
+<script src="../../js/swiper_hotel.js"></script>
+<script src="../../js/designForInput.js"></script>
+<script src="../../js/chatbot.js"></script>
 
 </html>

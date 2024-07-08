@@ -1,5 +1,6 @@
 @import url('global/share.css');
-.mainHeader{
+
+.mainHeader {
     /*  share.css에서 가져온 변수명으로 색깔을 넣는다. */
     background-color: var(--white);
     /*  아래쪽에 64픽셀(pixels)의 여백을 추가   */
@@ -10,7 +11,7 @@
     width: 100%;
 }
 
-.mainHeader_container{
+.mainHeader_container {
     /*  요소의 위치를 부모 요소 또는 기준 요소에 상대적으로 설정하는 데 사용됩니다.
         position: relative;를 사용하면 기본 흐름(layout)을 유지하면서,
         top, right, bottom, left 속성을 사용하여 요소를 이동시킬 수 있습니다.*/
@@ -18,7 +19,7 @@
     width: 100%;
 }
 
-.headlineWrapper{
+.headlineWrapper {
     /* 수직 중앙 정렬 */
     align-items: center;
     /*  CSS Flexbox 레이아웃을 사용하여 자식 요소들을 정렬하고 배치할 수 있도록 합니다.
@@ -35,7 +36,7 @@
     width: 1060px;
 }
 
-.headline{
+.headline {
     color: var(--gray-800);
     font-size: 36px;
     font-weight: 600;
@@ -47,7 +48,7 @@
     text-align: left;
 }
 
-.travelLink{
+.travelLink {
     flex-direction: row;
     /*  CSS 속성으로, 웹킷 기반 브라우저(예: Chrome, Safari)에서
         구형 Flexbox 모델을 사용할 때 아이템을 정렬하는 데 사용됩니다.
@@ -87,22 +88,25 @@
     /*  내부 여백(padding)을 상단 0픽셀, 오른쪽 0픽셀, 하단 0픽셀, 왼쪽 8픽셀로 설정*/
     padding: 0 0 0 8px;
 }
+
 /*  마우스 커서가 올라간 상태*/
-.travelLink:hover{
+.travelLink:hover {
     background-color: var(--blue-50);
 }
 
-.mainHeader_row, .mainBanner_row{
+.mainHeader_row, .mainBanner_row {
     margin: 0 auto;
     position: relative;
     width: 1080px;
 }
-.card_container, .banner_container{
+
+.card_container, .banner_container {
     height: 100%;
     position: relative;
     width: 100%;
 }
-.swiper-container, .swiper, .best-swiper{
+
+.swiper-container, .swiper, .best-swiper {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -113,7 +117,8 @@
         숫자가 높을 수록 더위에 표시*/
     z-index: 1;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
     /*  요소의 투명도를 지정
         현재 투명도를 99%로 지정*/
     opacity: .99;
@@ -132,7 +137,8 @@
     /*  전환 효과의 지속 시간을 0밀리초로 설정*/
     transition-duration: 0ms;
 }
-.swiper-slide .headerImage{
+
+.swiper-slide .headerImage {
     height: 100%;
     width: auto;
     /*  요소의 크기 변환(scale 변환)을 설정*/
@@ -142,7 +148,8 @@
     /*  전환의 시작 부분은 빠르게 시작하고, 점점 느리게 끝나도록 설정된 타이밍 함수*/
     transition-timing-function: ease-out;
 }
-.swiper-slide.image-slide{
+
+.swiper-slide.image-slide {
     border-radius: 8px;
     box-shadow: 0 8px 12px 0 rgb(33 37 41 / 15%);
     cursor: pointer;
@@ -155,18 +162,21 @@
     margin-right: 20px;
     z-index: 0;
 }
-.swiper-slide:hover .headerImage{
+
+.swiper-slide:hover .headerImage {
     transform: scale(1.1);
 }
-.cardEffect{
-    background-image: linear-gradient(142deg,rgba(0,0,0,.7),hsla(0,0%,100%,0) 65%);
+
+.cardEffect {
+    background-image: linear-gradient(142deg, rgba(0, 0, 0, .7), hsla(0, 0%, 100%, 0) 65%);
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
 }
-.cardContent{
+
+.cardContent {
     height: 100%;
     left: 0;
     padding: 32px 24px;
@@ -175,7 +185,8 @@
     top: 0;
     width: 100%;
 }
-.cardTitle{
+
+.cardTitle {
     grid-gap: 8px;
     align-items: center;
     color: var(--white);
@@ -184,7 +195,8 @@
     gap: 8px;
     margin-bottom: 8px;
 }
-.cardTit{
+
+.cardTit {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     font-size: 28px;
@@ -195,7 +207,8 @@
     text-shadow: 0 1px 8px rgb(33 37 41 / 60%);
     vertical-align: middle;
 }
-.cardBox{
+
+.cardBox {
     background-color: var(--green-500);
     border-radius: 4px;
     color: var(--white);
@@ -207,7 +220,8 @@
     text-align: center;
     vertical-align: middle;
 }
-.cardDesribe{
+
+.cardDesribe {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     color: var(--white);
@@ -220,7 +234,8 @@
     text-overflow: ellipsis;
     text-shadow: 0 1px 8px rgb(33 37 41 / 60%);
 }
-.cardBtn{
+
+.cardBtn {
     border: none;
     bottom: 32px;
     box-shadow: 0 0 0 1px rgb(33 37 41 / 8%);
@@ -235,24 +250,26 @@
     height: 40px;
     padding: 12px 16px 0;
 }
+
 .main-button-prev,
-.main-button-next{
+.main-button-next {
     background-color: var(--white);
     border: 0;
     border-radius: 50%;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 6px 0 rgb(0 0 0 / 5%), 0 4px 12px 0 rgb(0 0 0 / 5%);
-    height: 40px ;
-    position: absolute ;
+    height: 40px;
+    position: absolute;
     text-align: center;
-    top: 50% ;
+    top: 50%;
     transform: translateY(-50%);
     transition: .2s;
-    width: 40px ;
+    width: 40px;
     z-index: 10;
 }
+
 .mainBanner-button-prev.mainBannerBtn,
-.mainBanner-button-next.mainBannerBtn{
-    background-color: rgba(0,0,0,.15);
+.mainBanner-button-next.mainBannerBtn {
+    background-color: rgba(0, 0, 0, .15);
     border: 0;
     border-radius: 50%;
     height: 28px;
@@ -266,44 +283,51 @@
     width: 28px;
     z-index: 1;
 }
-.mainBanner-button-prev.mainBannerBtn{
+
+.mainBanner-button-prev.mainBannerBtn {
     left: 16px;
 }
-.mainBanner-button-next.mainBannerBtn{
+
+.mainBanner-button-next.mainBannerBtn {
     right: 16px;
 }
-.swiper:hover .mainBannerBtn{
+
+.swiper:hover .mainBannerBtn {
     visibility: visible;
     opacity: 1;
 }
+
 .main-button-next.swiper-button-disabled,
 .main-button-prev.swiper-button-disabled,
 .mainBanner-button-prev.swiper-button-disabled,
-.mainBanner-button-next.swiper-button-disabled
-{
+.mainBanner-button-next.swiper-button-disabled {
     display: none;
 }
+
 .swiper-button-prev::after,
-.swiper-button-next::after{
+.swiper-button-next::after {
     display: none;
 }
-.main-button-prev{
-    left: 1px ;
+
+.main-button-prev {
+    left: 1px;
 }
-.main-button-next{
-    right: 1px ;
+
+.main-button-next {
+    right: 1px;
 }
-.main-button-prev:hover, .main-button-next:hover{
+
+.main-button-prev:hover, .main-button-next:hover {
     box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 6px 0 rgb(0 0 0 / 5%), 0 8px 12px 0 rgb(0 0 0 / 20%);
 }
 
 
-.swiper-wrapper{
+.swiper-wrapper {
     width: 500px;
     height: 200px;
 }
 
-.image_container{
+.image_container {
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -313,15 +337,17 @@
     width: 100%;
     position: relative;
 }
-.bannerImage{
+
+.bannerImage {
     width: 100%;
     border-radius: 4px;
 }
-.mainBanner_wrapper{
+
+.mainBanner_wrapper {
     overflow: visible;
 }
 
-.mainBanner-pagination{
+.mainBanner-pagination {
     bottom: 0;
     left: 0;
     line-height: 1;
@@ -330,7 +356,8 @@
     text-align: center;
     z-index: 10
 }
-.mainBanner-pagination span{
+
+.mainBanner-pagination span {
     background-color: var(--black);
     border-radius: 100%;
     display: inline-block;
@@ -339,9 +366,11 @@
     opacity: .1;
     width: 8px;
 }
-.mainBanner-pagination .swiper-pagination-bullet-active{
+
+.mainBanner-pagination .swiper-pagination-bullet-active {
     opacity: 0.5;
 }
+
 .swiper-pagination-bullet-active {
     opacity: 1;
     background: #007aff;

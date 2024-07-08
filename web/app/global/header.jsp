@@ -7,12 +7,12 @@
     <div class="headerGnb">
         <nav class="globalNavBar">
             <div class="logo">
-                <a href="${cp}/index.jsp"><img src="${cp}/app/img/logo.png" alt="logo"></a>
+                <a href="<c:url value="/web/index.jsp"/>"><img src="../../app/img/logo.png" alt="logo"></a>
             </div>
             <div class="searchBar">
                 <div id="searchContainer" class="searchContainer">
                     <div class="searchImg">
-                        <img src="${cp}/app/img/search.svg" alt="search">
+                        <img src="../../app/img/search.svg" alt="search">
                     </div>
                     <input id="searchInput" class="searchInput" type="text" placeholder="도시나 상품을 검색해보세요">
                 </div>
@@ -56,7 +56,7 @@
                         <div class="profileItem">
                             <div class="profileCard">
                                 <button onclick="myInfo()">
-                                    <img src="${cp}/app/img/bird.png" alt="bird">
+                                    <img src="../../app/img/bird.png" alt="bird">
                                 </button>
                             </div>
                             <div class="myinfoContainer">
@@ -87,38 +87,38 @@
         <nav class="localNavBar">
             <div class="lnbWrapper">
                 <div class="localItemWithIcon">
-                    <a href="${cp}/index.jsp">
-                        <img src="${cp}/app/img/clover.png" alt="clover">
+                    <a href="../../index.jsp">
+                        <img src="../../app/img/clover.png" alt="clover">
                         <span>초특가뽑기</span>
                     </a>
                 </div>
                 <div class="localItemWithIcon">
                     <a href="${cp}/air/airReserve.ar">
-                        <img src="${cp}/app/img/plane.png" alt="plane">
+                        <img src="../../app/img/plane.png" alt="plane">
                         <span>항공권</span>
                     </a>
                 </div>
                 <div class="localItemWithIcon">
                     <a href="${cp}/tour/tourTicket.tr">
-                        <img src="${cp}/app/img/flag.png" alt="flag">
+                        <img src="../../app/img/flag.png" alt="flag">
                         <span>투어·티켓</span>
                     </a>
                 </div>
                 <div class="localItemWithIcon">
                     <a href="${cp}/hotel/hotel.ht">
-                        <img src="${cp}/app/img/pool.png" alt="pool">
+                        <img src="../../app/img/pool.png" alt="pool">
                         <span>국내숙소</span>
                     </a>
                 </div>
                 <div class="localItemWithIcon">
                     <a href="#">
-                        <img src="${cp}/app/img/trip.png" alt="trip">
+                        <img src="../../app/img/trip.png" alt="trip">
                         <span>호캉스</span>
                     </a>
                 </div>
                 <div class="localItemWithIcon">
                     <a href="#">
-                        <img src="${cp}/app/img/car.png" alt="car">
+                        <img src="../../app/img/car.png" alt="car">
                         <span>렌터카</span>
                     </a>
                 </div>

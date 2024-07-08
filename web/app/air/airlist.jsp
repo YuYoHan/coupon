@@ -8,19 +8,18 @@
 <head>
     <meta charset="UTF-8">
     <title>마이리얼트립 :: 항공권</title>
-    <c:set var="cp" value="${pageContext.request.contextPath}"></c:set>
-    <link rel="shortcut icon" type="image/x-icon" href="${cp}/app/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../app/img/favicon.ico">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
 </head>
-<link rel="stylesheet" href="${cp}/css/air/airlist.css">
-
-<link rel="stylesheet" href="${cp}/css/global/common.css">
+<link rel="stylesheet" type="text/css" href="../../css/calendar.css" />
+<link rel="stylesheet" href="../../css/air/airlist.css">
+<link rel="stylesheet" href="../../css/global/common.css">
 </head>
 <body>
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <!-- input -->
 <div class="k1_left_type2">
     <div class="list_search_wrap">
@@ -390,7 +389,7 @@
 </div>
 
 </body>
-<script src="${cp}/js/designForInput.js"></script>
+<script src="../../js/designForInput.js"></script>
 <script>
     $(function () {
 

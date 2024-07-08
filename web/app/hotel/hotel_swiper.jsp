@@ -18,7 +18,7 @@
                         </a>
                     </c:forEach>
                 </div>
-                <div class="swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination swiper-pagination-bullet-active"></div>
+                <div class="swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination swiper-pagination-bullets-active"></div>
             </div>
         </div>
     </div>
@@ -50,10 +50,10 @@
                 </div>
             </div>
             <button type="button" class="hotelsugsoList-button-prev">
-                <img src="${cp}/app/img/arrow_prev.svg">
+                <img src="../img/arrow_prev.svg">
             </button>
             <button type="button" class="hotelsugsoList-button-next">
-                <img src="${cp}/app/img/arrow_next.svg">
+                <img src="../img/arrow_next.svg">
             </button>
         </div>
     </div>
@@ -85,10 +85,10 @@
                 </div>
             </div>
             <button type="button" class="hotelspecialList-button-prev">
-                <img src="${cp}/app/img/arrow_prev.svg">
+                <img src="../img/arrow_prev.svg">
             </button>
             <button type="button" class="hotelspecialList-button-next">
-                <img src="${cp}/app/img/arrow_next.svg">
+                <img src="../img/arrow_next.svg">
             </button>
         </div>
     </div>

@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <title>비밀번호 찾기</title>
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
-    <link rel="stylesheet" href="${cp}/css/global/common.css">
-    <link rel="stylesheet" href="${cp}/css/index.css">
-    <link rel="stylesheet" href="${cp}/css/global/footer.css">
-    <link rel="stylesheet" href="${cp}/css/user/pwCheck.css">
+    <link rel="stylesheet" href="../../css/global/common.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/global/footer.css">
+    <link rel="stylesheet" href="../../css/user/pwCheck.css">
 </head>
 <body>
 <!-- header시작 -->
-<%@ include file="/app/global/header.jsp" %>
+<%@ include file="../global/header.jsp" %>
 <!-- header끝 -->
 <!-- main 시작 -->
 <main class="member">
@@ -60,11 +60,11 @@
 <!-- footer 시작 -->
 <div class="default-components" id="footer-components">
     <footer id="footer" class="footer-container">
-        <%@ include file="/app/global/footer.jsp" %>
+        <%@ include file="../global/footer.jsp" %>
     </footer>
 </div>
 <!-- footer 끝 -->
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="${cp}/js/pwCheck.js"></script>
+<script src="../../js/pwCheck.js"></script>
 </html>
