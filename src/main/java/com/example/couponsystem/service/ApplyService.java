@@ -1,6 +1,7 @@
 package com.example.couponsystem.service;
 
 import com.example.couponsystem.entity.Coupon;
+import com.example.couponsystem.producer.CouponCreateProducer;
 import com.example.couponsystem.repository.CouponCountRepository;
 import com.example.couponsystem.repository.CouponRepository;
 import lombok.RequiredArgsConstructor;
@@ -13,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class ApplyService {
     private final CouponRepository couponRepository;
     private final CouponCountRepository couponCountRepository;
+    private final CouponCreateProducer couponCreateProducer;
 
     public void apply(Long userId) {
         Long count = couponCountRepository.increment();
@@ -20,10 +22,6 @@ public class ApplyService {
         if(count > 100) {
             return;
         }
-        Coupon coupon = Coupon.builder()
-                .userId(userId)
-                .build();
-
-        couponRepository.save(coupon);
+        couponCreateProducer.create(userId);
     }
 }
