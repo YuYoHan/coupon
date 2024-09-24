@@ -48,9 +48,11 @@ class ApplyServiceTest {
                 }
             });
         }
-        latch.await();
+        latch.await(); // 모든 스레드가 완료될 때까지 대기
+        Thread.sleep(10000);
         long count = couponRepository.count();
         Assertions.assertThat(count).isEqualTo(100);
     }
+
 
 }
